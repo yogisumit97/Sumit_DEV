@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0001-two-sum) |
+| [0242-valid-anagram](https://github.com/yogisumit97/Sumit_DEV/tree/master/0242-valid-anagram) |
 ## Binary Search
 |  |
 | ------- |
@@ -38,6 +39,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0014-longest-common-prefix](https://github.com/yogisumit97/Sumit_DEV/tree/master/0014-longest-common-prefix) |
 | [0151-reverse-words-in-a-string](https://github.com/yogisumit97/Sumit_DEV/tree/master/0151-reverse-words-in-a-string) |
+| [0242-valid-anagram](https://github.com/yogisumit97/Sumit_DEV/tree/master/0242-valid-anagram) |
 | [0812-rotate-string](https://github.com/yogisumit97/Sumit_DEV/tree/master/0812-rotate-string) |
 | [2032-largest-odd-number-in-string](https://github.com/yogisumit97/Sumit_DEV/tree/master/2032-largest-odd-number-in-string) |
 ## Math
@@ -52,4 +54,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0812-rotate-string](https://github.com/yogisumit97/Sumit_DEV/tree/master/0812-rotate-string) |
+## Sorting
+|  |
+| ------- |
+| [0242-valid-anagram](https://github.com/yogisumit97/Sumit_DEV/tree/master/0242-valid-anagram) |
 <!---LeetCode Topics End-->
