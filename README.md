@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0001-two-sum) |
+| [0004-median-of-two-sorted-arrays](https://github.com/yogisumit97/Sumit_DEV/tree/master/0004-median-of-two-sorted-arrays) |
 | [0410-split-array-largest-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0410-split-array-largest-sum) |
 ## Hash Table
 |  |
@@ -17,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/yogisumit97/Sumit_DEV/tree/master/0004-median-of-two-sorted-arrays) |
 | [0410-split-array-largest-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0410-split-array-largest-sum) |
 ## Dynamic Programming
 |  |
@@ -67,4 +69,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/yogisumit97/Sumit_DEV/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/yogisumit97/Sumit_DEV/tree/master/0004-median-of-two-sorted-arrays) |
 <!---LeetCode Topics End-->
