@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0001-two-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/yogisumit97/Sumit_DEV/tree/master/0004-median-of-two-sorted-arrays) |
+| [0074-search-a-2d-matrix](https://github.com/yogisumit97/Sumit_DEV/tree/master/0074-search-a-2d-matrix) |
 | [0410-split-array-largest-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0410-split-array-largest-sum) |
 ## Hash Table
 |  |
@@ -19,6 +20,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/yogisumit97/Sumit_DEV/tree/master/0004-median-of-two-sorted-arrays) |
+| [0074-search-a-2d-matrix](https://github.com/yogisumit97/Sumit_DEV/tree/master/0074-search-a-2d-matrix) |
 | [0410-split-array-largest-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0410-split-array-largest-sum) |
 ## Dynamic Programming
 |  |
@@ -73,4 +75,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/yogisumit97/Sumit_DEV/tree/master/0004-median-of-two-sorted-arrays) |
+## Matrix
+|  |
+| ------- |
+| [0074-search-a-2d-matrix](https://github.com/yogisumit97/Sumit_DEV/tree/master/0074-search-a-2d-matrix) |
 <!---LeetCode Topics End-->
