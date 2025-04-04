@@ -10,6 +10,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0004-median-of-two-sorted-arrays](https://github.com/yogisumit97/Sumit_DEV/tree/master/0004-median-of-two-sorted-arrays) |
 | [0074-search-a-2d-matrix](https://github.com/yogisumit97/Sumit_DEV/tree/master/0074-search-a-2d-matrix) |
 | [0410-split-array-largest-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0410-split-array-largest-sum) |
+| [2047-find-a-peak-element-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/2047-find-a-peak-element-ii) |
 ## Hash Table
 |  |
 | ------- |
@@ -23,6 +24,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0004-median-of-two-sorted-arrays](https://github.com/yogisumit97/Sumit_DEV/tree/master/0004-median-of-two-sorted-arrays) |
 | [0074-search-a-2d-matrix](https://github.com/yogisumit97/Sumit_DEV/tree/master/0074-search-a-2d-matrix) |
 | [0410-split-array-largest-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0410-split-array-largest-sum) |
+| [2047-find-a-peak-element-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/2047-find-a-peak-element-ii) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -83,6 +85,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/yogisumit97/Sumit_DEV/tree/master/0074-search-a-2d-matrix) |
+| [2047-find-a-peak-element-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/2047-find-a-peak-element-ii) |
 ## Linked List
 |  |
 | ------- |
