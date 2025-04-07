@@ -11,13 +11,20 @@
  */
 public class Solution {
     public ListNode detectCycle(ListNode head) {
-        HashSet<ListNode> hset = new HashSet<>();
-        ListNode curr = head;
-        while(curr!=null){
-            if(hset.contains(curr)) return curr;
-            hset.add(curr);
-            curr = curr.next;
+        //hare tortoise algo 
+        ListNode fast = head;
+        ListNode slow = head;
+        do{
+            if(slow == null || slow.next ==null) return null;
+            else if(fast == null || fast.next == null) return null;
+            slow = slow.next;
+            fast = fast.next.next;
+        }while(fast!=slow);
+        slow = head;
+        while(fast!=slow){
+            slow = slow.next;
+            fast=fast.next;
         }
-        return null;   
+        return slow;
     }
 }
