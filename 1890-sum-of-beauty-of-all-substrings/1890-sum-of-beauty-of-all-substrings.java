@@ -9,23 +9,20 @@ class Solution {
             freq[s.charAt(i+1)-'a']++;
             for(int j = i+2; j<s.length();j++){
                 freq[s.charAt(j)-'a']++;
-                beauty+=max(freq)-min(freq); 
+                beauty+=getBeatuty(freq); 
             }
         }
         return beauty;
     }
-    public int max(int[] freq){
+    public int getBeatuty(int[] freq){
         int ans = Integer.MIN_VALUE;
+        int minus = Integer.MAX_VALUE;
         for(int i : freq){
-            if(i!=0) ans = Math.max(ans,i);
+            if(i!=0){
+                ans = Math.max(ans,i);
+                minus = Math.min(minus,i);
+            }
         }
-        return ans;
-    }
-    public int min(int[] freq){
-        int ans = Integer.MAX_VALUE;
-        for(int i : freq){
-            if(i!=0) ans = Math.min(ans,i);
-        }
-        return ans;
+        return ans-minus;
     }
 }
