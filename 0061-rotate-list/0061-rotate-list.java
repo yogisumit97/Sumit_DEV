@@ -9,21 +9,18 @@
  * }
  */
 class Solution {
-    public int findLen(ListNode head){
+    public ListNode rotateRight(ListNode head, int k) {
+        if(head == null || head.next == null || k==0) return head;
         ListNode curr = head;
-        int len = 0;
-        while(curr!=null){
+        int len = 1;
+        while(curr.next!=null){
             len++;
             curr = curr.next;
         }
-        return len;
-    }
-    public ListNode rotateRight(ListNode head, int k) {
-        if(head == null || head.next == null) return head;
-        int len = findLen(head);
         int num = k%len;
         if(num==0) return head;
-        ListNode curr = head;
+        curr.next = head;
+        curr = head;
         ListNode prev = null;
         while(len!=num){
             prev = curr;
@@ -31,9 +28,6 @@ class Solution {
             num++;
         }
         prev.next = null;
-        ListNode newHead = curr;
-        while(curr.next!=null) curr= curr.next;
-        curr.next = head;
-        return newHead;
+        return curr;
     }
 }
