@@ -35,6 +35,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/yogisumit97/Sumit_DEV/tree/master/0005-longest-palindromic-substring) |
 | [0410-split-array-largest-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0410-split-array-largest-sum) |
+| [1013-fibonacci-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/1013-fibonacci-number) |
 ## Greedy
 |  |
 | ------- |
@@ -82,6 +83,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0002-add-two-numbers](https://github.com/yogisumit97/Sumit_DEV/tree/master/0002-add-two-numbers) |
 | [0013-roman-to-integer](https://github.com/yogisumit97/Sumit_DEV/tree/master/0013-roman-to-integer) |
 | [0050-powx-n](https://github.com/yogisumit97/Sumit_DEV/tree/master/0050-powx-n) |
+| [1013-fibonacci-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/1013-fibonacci-number) |
 | [2032-largest-odd-number-in-string](https://github.com/yogisumit97/Sumit_DEV/tree/master/2032-largest-odd-number-in-string) |
 | [2050-count-good-numbers](https://github.com/yogisumit97/Sumit_DEV/tree/master/2050-count-good-numbers) |
 ## Trie
@@ -152,9 +154,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0050-powx-n](https://github.com/yogisumit97/Sumit_DEV/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/yogisumit97/Sumit_DEV/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/yogisumit97/Sumit_DEV/tree/master/0234-palindrome-linked-list) |
+| [1013-fibonacci-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/1013-fibonacci-number) |
 | [2050-count-good-numbers](https://github.com/yogisumit97/Sumit_DEV/tree/master/2050-count-good-numbers) |
 ## Merge Sort
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/yogisumit97/Sumit_DEV/tree/master/0148-sort-list) |
+## Memoization
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/1013-fibonacci-number) |
 <!---LeetCode Topics End-->
