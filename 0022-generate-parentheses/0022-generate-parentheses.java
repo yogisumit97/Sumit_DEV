@@ -1,15 +1,16 @@
 class Solution {
     public List<String> generateParenthesis(int n) {
-        return generateValidCombinations(1,2*n,"(",new ArrayList<String>(),1,0);
+        return generateParenthesisHelper(1,2*n,"(",new ArrayList<String>(),1,0);
     }
-    public List<String> generateValidCombinations(int index, int size, String result, List<String> ans,int open, int close){
-        if(open>size/2 || close>size/2 || open<close) return ans;
+    private List<String> generateParenthesisHelper(int index, int size, String result, List<String> ans,int openCount, int closeCount){
+        // If the number of open or close parentheses exceeds n or if close parentheses exceed open parentheses, the combination is invalid."
+        if(openCount>size/2 || closeCount>size/2 || openCount<closeCount) return ans;
         if(index>=size){
-            ans.add(new String(result));
+            ans.add(result.toString());
             return ans;
         }
-        generateValidCombinations(index+1, size, result+'(', ans,open+1,close);
-        generateValidCombinations(index+1, size, result+')', ans,open, close+1);
+        generateParenthesisHelper(index+1, size, result+'(', ans,openCount+1,closeCount);
+        generateParenthesisHelper(index+1, size, result+')', ans,openCount, closeCount+1);
         return ans;
     }
 }
