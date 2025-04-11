@@ -1,29 +1,16 @@
 class Solution {
     public List<String> generateParenthesis(int n) {
         List<String> ans = new ArrayList<String>();
-        return generateValidCombinations(1,2*n,"(",ans);
+        return generateValidCombinations(1,2*n,"(",ans,1,0);
     }
-    public List<String> generateValidCombinations(int index, int size, String result, List<String> ans){
+    public List<String> generateValidCombinations(int index, int size, String result, List<String> ans,int open, int close){
+        if(open>size/2 || close>size/2 || open<close) return ans;
         if(index>=size){
-            if(checkValid(result,size)) ans.add(new String(result));
+            ans.add(new String(result));
             return ans;
         }
-        else if(checkValid(result,size)){
-            generateValidCombinations(index+1, size, result+'(', ans);
-            generateValidCombinations(index+1, size, result+')', ans);
-        }
+        generateValidCombinations(index+1, size, result+'(', ans,open+1,close);
+        generateValidCombinations(index+1, size, result+')', ans,open, close+1);
         return ans;
-    }
-    public boolean checkValid(String result, int size){
-        if(result.length()==0) return true;
-        int count1 = 0;
-        int count2 = 0;
-        for(int i =0;i<result.length();i++){
-            if(result.charAt(i)=='(') count1++;
-            else count2++;
-        }
-        if(count1>size/2 || count2>size/2) return false;
-        else if(count1<count2) return false;
-        return true;
     }
 }
