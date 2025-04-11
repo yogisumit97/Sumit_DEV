@@ -1,7 +1,6 @@
 class Solution {
     public List<String> generateParenthesis(int n) {
-        List<String> ans = new ArrayList<String>();
-        return generateValidCombinations(1,2*n,"(",ans,1,0);
+        return generateValidCombinations(1,2*n,"(",new ArrayList<String>(),1,0);
     }
     public List<String> generateValidCombinations(int index, int size, String result, List<String> ans,int open, int close){
         if(open>size/2 || close>size/2 || open<close) return ans;
