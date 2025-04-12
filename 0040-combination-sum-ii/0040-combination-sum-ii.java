@@ -10,6 +10,7 @@ class Solution {
             return ans;
         }
         for (int i = index; i < nums.length; i++) {
+            if(sum>target) break;
             if (i > index && nums[i] == nums[i - 1]) continue; // Skip duplicates
             result.add(nums[i]); // Include the current number
             findSubset(i + 1, nums, result, sum + nums[i], ans, target); // Move to the next index with the current number included
