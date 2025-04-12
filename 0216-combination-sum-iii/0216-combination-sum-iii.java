@@ -14,7 +14,7 @@ class Solution {
     }
     private void findCombinationsHelper(int index, int[] arr,int sum,int target,int maxElements, List<Integer> result,List<List<Integer>> ans){
         if(index>=arr.length || sum>=target || result.size()>=maxElements){
-            if(sum==target && result.size()>=maxElements) ans.add(new ArrayList<>(result));
+            if(sum==target && result.size()==maxElements) ans.add(new ArrayList<>(result));
             return;
         }
         //take or not take method
