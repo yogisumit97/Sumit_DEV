@@ -33,6 +33,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/yogisumit97/Sumit_DEV/tree/master/0004-median-of-two-sorted-arrays) |
+| [0069-sqrtx](https://github.com/yogisumit97/Sumit_DEV/tree/master/0069-sqrtx) |
 | [0074-search-a-2d-matrix](https://github.com/yogisumit97/Sumit_DEV/tree/master/0074-search-a-2d-matrix) |
 | [0410-split-array-largest-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0410-split-array-largest-sum) |
 | [2047-find-a-peak-element-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/2047-find-a-peak-element-ii) |
@@ -92,6 +93,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0002-add-two-numbers](https://github.com/yogisumit97/Sumit_DEV/tree/master/0002-add-two-numbers) |
 | [0013-roman-to-integer](https://github.com/yogisumit97/Sumit_DEV/tree/master/0013-roman-to-integer) |
 | [0050-powx-n](https://github.com/yogisumit97/Sumit_DEV/tree/master/0050-powx-n) |
+| [0069-sqrtx](https://github.com/yogisumit97/Sumit_DEV/tree/master/0069-sqrtx) |
 | [0326-power-of-three](https://github.com/yogisumit97/Sumit_DEV/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/yogisumit97/Sumit_DEV/tree/master/0342-power-of-four) |
 | [1013-fibonacci-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/1013-fibonacci-number) |
