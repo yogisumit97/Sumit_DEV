@@ -104,6 +104,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0050-powx-n](https://github.com/yogisumit97/Sumit_DEV/tree/master/0050-powx-n) |
 | [0069-sqrtx](https://github.com/yogisumit97/Sumit_DEV/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/yogisumit97/Sumit_DEV/tree/master/0070-climbing-stairs) |
+| [0231-power-of-two](https://github.com/yogisumit97/Sumit_DEV/tree/master/0231-power-of-two) |
 | [0326-power-of-three](https://github.com/yogisumit97/Sumit_DEV/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/yogisumit97/Sumit_DEV/tree/master/0342-power-of-four) |
 | [1013-fibonacci-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/1013-fibonacci-number) |
@@ -180,6 +181,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0025-reverse-nodes-in-k-group](https://github.com/yogisumit97/Sumit_DEV/tree/master/0025-reverse-nodes-in-k-group) |
 | [0050-powx-n](https://github.com/yogisumit97/Sumit_DEV/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/yogisumit97/Sumit_DEV/tree/master/0206-reverse-linked-list) |
+| [0231-power-of-two](https://github.com/yogisumit97/Sumit_DEV/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/yogisumit97/Sumit_DEV/tree/master/0234-palindrome-linked-list) |
 | [0326-power-of-three](https://github.com/yogisumit97/Sumit_DEV/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/yogisumit97/Sumit_DEV/tree/master/0342-power-of-four) |
@@ -200,6 +202,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0078-subsets](https://github.com/yogisumit97/Sumit_DEV/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0090-subsets-ii) |
+| [0231-power-of-two](https://github.com/yogisumit97/Sumit_DEV/tree/master/0231-power-of-two) |
 | [0342-power-of-four](https://github.com/yogisumit97/Sumit_DEV/tree/master/0342-power-of-four) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/yogisumit97/Sumit_DEV/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Simulation
