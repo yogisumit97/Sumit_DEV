@@ -17,6 +17,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0078-subsets](https://github.com/yogisumit97/Sumit_DEV/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/yogisumit97/Sumit_DEV/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0090-subsets-ii) |
+| [0139-word-break](https://github.com/yogisumit97/Sumit_DEV/tree/master/0139-word-break) |
 | [0216-combination-sum-iii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0216-combination-sum-iii) |
 | [0410-split-array-largest-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0410-split-array-largest-sum) |
 | [1656-count-good-triplets](https://github.com/yogisumit97/Sumit_DEV/tree/master/1656-count-good-triplets) |
@@ -29,6 +30,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0017-letter-combinations-of-a-phone-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0037-sudoku-solver](https://github.com/yogisumit97/Sumit_DEV/tree/master/0037-sudoku-solver) |
 | [0138-copy-list-with-random-pointer](https://github.com/yogisumit97/Sumit_DEV/tree/master/0138-copy-list-with-random-pointer) |
+| [0139-word-break](https://github.com/yogisumit97/Sumit_DEV/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/yogisumit97/Sumit_DEV/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/yogisumit97/Sumit_DEV/tree/master/0160-intersection-of-two-linked-lists) |
@@ -51,6 +53,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/yogisumit97/Sumit_DEV/tree/master/0022-generate-parentheses) |
 | [0070-climbing-stairs](https://github.com/yogisumit97/Sumit_DEV/tree/master/0070-climbing-stairs) |
 | [0131-palindrome-partitioning](https://github.com/yogisumit97/Sumit_DEV/tree/master/0131-palindrome-partitioning) |
+| [0139-word-break](https://github.com/yogisumit97/Sumit_DEV/tree/master/0139-word-break) |
 | [0410-split-array-largest-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0410-split-array-largest-sum) |
 | [1013-fibonacci-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/1013-fibonacci-number) |
 ## Greedy
@@ -88,6 +91,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/yogisumit97/Sumit_DEV/tree/master/0022-generate-parentheses) |
 | [0079-word-search](https://github.com/yogisumit97/Sumit_DEV/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/yogisumit97/Sumit_DEV/tree/master/0131-palindrome-partitioning) |
+| [0139-word-break](https://github.com/yogisumit97/Sumit_DEV/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/yogisumit97/Sumit_DEV/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/yogisumit97/Sumit_DEV/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/yogisumit97/Sumit_DEV/tree/master/0242-valid-anagram) |
@@ -117,6 +121,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/yogisumit97/Sumit_DEV/tree/master/0014-longest-common-prefix) |
+| [0139-word-break](https://github.com/yogisumit97/Sumit_DEV/tree/master/0139-word-break) |
 ## String Matching
 |  |
 | ------- |
@@ -203,6 +208,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/yogisumit97/Sumit_DEV/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/yogisumit97/Sumit_DEV/tree/master/0139-word-break) |
 | [1013-fibonacci-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/1013-fibonacci-number) |
 ## Bit Manipulation
 |  |
