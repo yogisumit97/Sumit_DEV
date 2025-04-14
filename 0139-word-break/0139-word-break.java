@@ -1,12 +1,13 @@
 class Solution {
     public boolean wordBreak(String s, List<String> wordDict) {
-        int maxLen = Integer.MIN_VALUE;
+        // dp solution 
+        int maxLen = Integer.MIN_VALUE; // if substring is greater than this do not check further
         HashSet<String> dictSet = new HashSet<>();
         for(String i : wordDict){
             dictSet.add(i);
             maxLen = Math.max(maxLen,i.length());
         }
-        boolean[] isSegmentPossible = new boolean[s.length()+1];
+        boolean[] isSegmentPossible = new boolean[s.length()+1]; //dp array : keeps track if substring(0,i+1) is possible or not using this dictionary
         isSegmentPossible[0]=true; // if nothing is taken segment is possible;
         for(int i =0 ; i<s.length(); i++){ // iterate over string
             int count = 0;
