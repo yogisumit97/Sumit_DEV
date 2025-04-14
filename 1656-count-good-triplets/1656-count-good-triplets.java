@@ -5,8 +5,7 @@ class Solution {
             for(int j=i+1; j<arr.length;j++){
                 if(Math.abs(arr[i]-arr[j])>a) continue;
                 for(int k=j+1; k<arr.length;k++){
-                    if(Math.abs(arr[j]-arr[k])>b) continue;
-                    if(Math.abs(arr[i]-arr[k])>c) continue;
+                    if(Math.abs(arr[i]-arr[k])>c ||Math.abs(arr[j]-arr[k])>b) continue;
                     count++;
                 }
             }
