@@ -241,8 +241,17 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0079-word-search](https://github.com/yogisumit97/Sumit_DEV/tree/master/0079-word-search) |
+| [1120-flower-planting-with-no-adjacent](https://github.com/yogisumit97/Sumit_DEV/tree/master/1120-flower-planting-with-no-adjacent) |
 ## Enumeration
 |  |
 | ------- |
 | [1656-count-good-triplets](https://github.com/yogisumit97/Sumit_DEV/tree/master/1656-count-good-triplets) |
+## Breadth-First Search
+|  |
+| ------- |
+| [1120-flower-planting-with-no-adjacent](https://github.com/yogisumit97/Sumit_DEV/tree/master/1120-flower-planting-with-no-adjacent) |
+## Graph
+|  |
+| ------- |
+| [1120-flower-planting-with-no-adjacent](https://github.com/yogisumit97/Sumit_DEV/tree/master/1120-flower-planting-with-no-adjacent) |
 <!---LeetCode Topics End-->
