@@ -95,6 +95,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0151-reverse-words-in-a-string](https://github.com/yogisumit97/Sumit_DEV/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/yogisumit97/Sumit_DEV/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/yogisumit97/Sumit_DEV/tree/master/0242-valid-anagram) |
+| [0282-expression-add-operators](https://github.com/yogisumit97/Sumit_DEV/tree/master/0282-expression-add-operators) |
 | [0344-reverse-string](https://github.com/yogisumit97/Sumit_DEV/tree/master/0344-reverse-string) |
 | [0451-sort-characters-by-frequency](https://github.com/yogisumit97/Sumit_DEV/tree/master/0451-sort-characters-by-frequency) |
 | [0812-rotate-string](https://github.com/yogisumit97/Sumit_DEV/tree/master/0812-rotate-string) |
@@ -111,6 +112,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0069-sqrtx](https://github.com/yogisumit97/Sumit_DEV/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/yogisumit97/Sumit_DEV/tree/master/0070-climbing-stairs) |
 | [0231-power-of-two](https://github.com/yogisumit97/Sumit_DEV/tree/master/0231-power-of-two) |
+| [0282-expression-add-operators](https://github.com/yogisumit97/Sumit_DEV/tree/master/0282-expression-add-operators) |
 | [0326-power-of-three](https://github.com/yogisumit97/Sumit_DEV/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/yogisumit97/Sumit_DEV/tree/master/0342-power-of-four) |
 | [1013-fibonacci-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/1013-fibonacci-number) |
@@ -237,6 +239,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0090-subsets-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/yogisumit97/Sumit_DEV/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0216-combination-sum-iii) |
+| [0282-expression-add-operators](https://github.com/yogisumit97/Sumit_DEV/tree/master/0282-expression-add-operators) |
 ## Depth-First Search
 |  |
 | ------- |
