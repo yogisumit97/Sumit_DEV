@@ -1,8 +1,8 @@
 class Solution {
     public boolean isPowerOfTwo(int n) {
-        if(n==1) return true;
-        if((n&1)!=0 || n<=0) return false; //odd except 1
-        return isPowerOfTwo(n>>1); // check n/2;
+        if(n==0 || n<0) return false;
+        if((n&(n-1))==0) return true;
+        return false;
     }
 }
 
