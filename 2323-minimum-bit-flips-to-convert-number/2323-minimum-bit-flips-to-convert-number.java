@@ -1,16 +1,11 @@
 class Solution {
     public int minBitFlips(int start, int goal) {
-        int dig1 = 0;
-        int dig2 = 0;
+        int ans = start^goal;
         int count = 0;
-        while(start!=0 || goal!=0){
-            dig1 = start&1;
-            dig2 = goal&1;
-            if(dig1!=dig2) count++;
-            start>>=1;
-            goal>>=1;
+        while(ans!=0){
+            ans = ans&(ans-1);
+            count++;
         }
         return count;
     }
 }
-
