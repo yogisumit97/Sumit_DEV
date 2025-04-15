@@ -115,6 +115,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0282-expression-add-operators](https://github.com/yogisumit97/Sumit_DEV/tree/master/0282-expression-add-operators) |
 | [0326-power-of-three](https://github.com/yogisumit97/Sumit_DEV/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/yogisumit97/Sumit_DEV/tree/master/0342-power-of-four) |
+| [0405-convert-a-number-to-hexadecimal](https://github.com/yogisumit97/Sumit_DEV/tree/master/0405-convert-a-number-to-hexadecimal) |
 | [1013-fibonacci-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/1013-fibonacci-number) |
 | [2032-largest-odd-number-in-string](https://github.com/yogisumit97/Sumit_DEV/tree/master/2032-largest-odd-number-in-string) |
 | [2050-count-good-numbers](https://github.com/yogisumit97/Sumit_DEV/tree/master/2050-count-good-numbers) |
@@ -219,6 +220,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0090-subsets-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0090-subsets-ii) |
 | [0231-power-of-two](https://github.com/yogisumit97/Sumit_DEV/tree/master/0231-power-of-two) |
 | [0342-power-of-four](https://github.com/yogisumit97/Sumit_DEV/tree/master/0342-power-of-four) |
+| [0405-convert-a-number-to-hexadecimal](https://github.com/yogisumit97/Sumit_DEV/tree/master/0405-convert-a-number-to-hexadecimal) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/yogisumit97/Sumit_DEV/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Simulation
 |  |
