@@ -1,16 +1,40 @@
 class Solution {
     public String toHex(int num) {
-        if (num == 0) return "0";
-        
-        char[] hexChars = "0123456789abcdef".toCharArray();
-        StringBuilder sb = new StringBuilder();
-        
-        while (num != 0) {
-            int digit = num & 0xf; //num%16
-            sb.append(hexChars[digit]);
-            // Unsigned right shift by 4 bits to process next digit
-            num >>>= 4; //num/16
+        return findPositiveHex(num); 
+    }
+    private String findPositiveHex(int num){
+        StringBuilder hex = new StringBuilder();
+        if(num==0){
+            hex.append('0');
+            return hex.toString();
         }
-        return sb.reverse().toString();
+        while(num!=0){
+            int temp = num&0xf; //kind of modulo
+            char ch = getHexChar(temp);
+            hex.append(ch);
+            num>>>=4;
+        }
+        return hex.reverse().toString();
+    }
+    private char getHexChar(int num){
+        switch(num){
+                case 0 : return '0';
+                case 1 : return '1';
+                case 2 : return '2';
+                case 3 : return '3';
+                case 4 : return '4';
+                case 5 : return '5';
+                case 6 : return '6';
+                case 7 : return '7';
+                case 8 : return '8';
+                case 9 : return '9';
+                case 10 : return 'a';
+                case 11 : return 'b';
+                case 12 : return 'c';
+                case 13 : return 'd';
+                case 14 : return 'e';
+                case 15 : return 'f';
+        }
+        return '0';
     }
 }
