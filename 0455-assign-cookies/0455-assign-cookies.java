@@ -3,17 +3,12 @@ class Solution {
         Arrays.sort(g); //no. of child
         Arrays.sort(s); // size
         int i =0; int j =0;
-        int count =0;
         while(i<g.length && j< s.length){
             if(g[i]<=s[j]){
-                count++;
                 i++;
-                j++;
             }
-            else{
-                j++;
-            }
+            j++;
         }
-        return count;
+        return i; // in the end i denotes childs that are sastisfied
     }
 }
