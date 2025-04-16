@@ -3,17 +3,15 @@ class Solution { //can be done using sliding window technique
         int max = 0;
         int left = 0;
         int right = 0;
+        HashSet<Character> hset = new HashSet<>();
         while(right<s.length()){
-            HashSet<Character> hset = new HashSet<>();
-            for(int i = left; i<=right; i++){
-                if(hset.contains(s.charAt(i))){
-                    hset.clear();
-                    left++;
-                    break;
-                }
-                hset.add(s.charAt(i));
+            char curr = s.charAt(right);
+            while(hset.contains(curr)){
+                hset.remove(s.charAt(left));
+                left++;
             }
-            max = Math.max(max, hset.size());
+            hset.add(curr);
+            max = Math.max(max, right-left+1);
             right++;
         }
         return max;
