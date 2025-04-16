@@ -6,7 +6,7 @@ class Solution {
         for(int i =2 ;i<arr.length; i++){
             if(arr[i]==true) continue; //non prime marked already
             count++; //increase prime count;
-            int mul = i; //3 6 9 12 .... mark 3 as prime and 3*3 onwards non prime check >> 3*2 already checked by 2
+            //3 6 9 12 .... mark 3 as prime and 3*3 onwards non prime check >> 3*2 already checked by 2
             for(long j = (long)i*i; j<arr.length; j=j+i){
                 arr[(int)j] = true; // marked non prime
             }
