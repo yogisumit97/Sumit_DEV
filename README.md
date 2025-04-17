@@ -25,6 +25,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0414-third-maximum-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/0414-third-maximum-number) |
 | [0455-assign-cookies](https://github.com/yogisumit97/Sumit_DEV/tree/master/0455-assign-cookies) |
 | [0496-next-greater-element-i](https://github.com/yogisumit97/Sumit_DEV/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0503-next-greater-element-ii) |
 | [1656-count-good-triplets](https://github.com/yogisumit97/Sumit_DEV/tree/master/1656-count-good-triplets) |
 | [2047-find-a-peak-element-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/2047-find-a-peak-element-ii) |
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
@@ -159,6 +160,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0232-implement-queue-using-stacks](https://github.com/yogisumit97/Sumit_DEV/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/yogisumit97/Sumit_DEV/tree/master/0234-palindrome-linked-list) |
 | [0496-next-greater-element-i](https://github.com/yogisumit97/Sumit_DEV/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0503-next-greater-element-ii) |
 | [1078-remove-outermost-parentheses](https://github.com/yogisumit97/Sumit_DEV/tree/master/1078-remove-outermost-parentheses) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/yogisumit97/Sumit_DEV/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 ## Divide and Conquer
@@ -307,4 +309,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/yogisumit97/Sumit_DEV/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0503-next-greater-element-ii) |
 <!---LeetCode Topics End-->
