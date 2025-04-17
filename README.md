@@ -26,6 +26,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0455-assign-cookies](https://github.com/yogisumit97/Sumit_DEV/tree/master/0455-assign-cookies) |
 | [1656-count-good-triplets](https://github.com/yogisumit97/Sumit_DEV/tree/master/1656-count-good-triplets) |
 | [2047-find-a-peak-element-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/2047-find-a-peak-element-ii) |
+| [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
 ## Hash Table
 |  |
 | ------- |
