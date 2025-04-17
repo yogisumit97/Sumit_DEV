@@ -6,12 +6,8 @@ class MinStack {
     public void push(int val) {
         List<Integer> list = new ArrayList<>();
         list.add(val);
-        if(stack.empty()) list.add(val);
-        else{
-            List<Integer> temp = stack.peek();
-            if(temp.get(1)>val) list.add(val);
-            else list.add(temp.get(1));
-        }   
+        if(stack.empty() || stack.peek().get(1)>val) list.add(val);
+        else list.add(stack.peek().get(1));   
         stack.push(list);
     }
     public void pop() {
