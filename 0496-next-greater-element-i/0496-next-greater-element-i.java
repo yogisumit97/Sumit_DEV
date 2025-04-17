@@ -5,24 +5,13 @@ class Solution {
         HashMap<Integer,Integer> hm = new HashMap<>();
         while(count>=0){
             int temp = -1;
-            if(stack.empty()){
-                stack.push(nums2[count]);
-                temp = -1;
-            }
-            else{
-                if(stack.peek()>nums2[count]){
-                    temp= stack.peek();
-                    stack.push(nums2[count]);
+            if(!stack.empty()){
+                while(!stack.empty() && stack.peek()<nums2[count]){
+                    stack.pop();
                 }
-                else{
-                    while(!stack.empty() && stack.peek()<nums2[count]){
-                        stack.pop();
-                    }
-                    if(stack.empty()) temp=-1;
-                    else temp= stack.peek();
-                    stack.push(nums2[count]);
-                }
+                if(!stack.empty()) temp= stack.peek();
             }
+            stack.push(nums2[count]);
             hm.put(nums2[count],temp);
             count--;
         }
