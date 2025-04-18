@@ -1,26 +1,27 @@
 class Solution {
     public int trap(int[] height) {
-        int len = height.length;
-        int[] nextGreatest = new int[height.length]; // keep track of next greatest element
-        int temp = -1;
-        for(int i = len-1; i>=0; i--){
-            nextGreatest[i] = Math.max(height[i], temp);
-            temp = nextGreatest[i];
-        }
-        temp = -1;   // to store prevGreatest occured till now
+        int left = 0;
+        int right = height.length-1;
         int vol = 0;
-        for(int i =0; i<len; i++){
-            temp = Math.max(height[i], temp);
-            vol+= Math.min(temp, nextGreatest[i]) - height[i];
+        int leftMax = 0;
+        int rightMax = 0;
+        while(left<right){
+            if(height[left]==height[right]){
+                leftMax = Math.max(leftMax,height[left]);
+                left++;
+            }
+            else if(height[left]<height[right]){
+                leftMax = Math.max(leftMax,height[left]);
+                vol+= leftMax-height[left];
+                left++;
+            }    
+            else{
+                rightMax = Math.max(rightMax,height[right]);
+                vol+= rightMax-height[right];
+                right--;
+            }
+            //System.out.println(left+" "+right+" "+leftMax+" "+rightMax+" "+vol);
         }
         return vol;
     }
 }
-
-/*
-temp = -1;
-for(int i = 0; i<len; i++){
-            prevGreatest[i] = Math.max(height[i], temp);
-            temp = prevGreatest[i];
-        }
-        */
