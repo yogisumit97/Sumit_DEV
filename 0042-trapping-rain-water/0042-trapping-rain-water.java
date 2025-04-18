@@ -6,11 +6,7 @@ class Solution {
         int leftMax = 0;
         int rightMax = 0;
         while(left<right){
-            if(height[left]==height[right]){
-                leftMax = Math.max(leftMax,height[left]);
-                left++;
-            }
-            else if(height[left]<height[right]){
+            if(height[left]<=height[right]){
                 leftMax = Math.max(leftMax,height[left]);
                 vol+= leftMax-height[left];
                 left++;
