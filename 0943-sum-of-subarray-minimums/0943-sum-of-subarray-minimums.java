@@ -1,0 +1,36 @@
+class Solution {
+    public int sumSubarrayMins(int[] arr) {
+        int len = arr.length;
+        int[] pseIndex = new int[arr.length];// stores previous smaller or equal element index
+        int[] nseIndex = new int[arr.length];// stores next smaller or equal element index
+        Stack<Integer> stack = new Stack<>();  //to get PSE and NSE
+        for(int i =0; i<len ; i++){
+            int res = -1;
+            while(!stack.empty() && arr[stack.peek()]>=arr[i]) stack.pop();
+            if(!stack.empty()) res = stack.peek();
+            stack.push(i);
+            pseIndex[i] = res;
+        }
+        stack.clear();
+        for(int i =len-1; i>=0 ; i--){
+            int res = -1;
+            while(!stack.empty() && arr[stack.peek()]>arr[i]) stack.pop();
+            if(!stack.empty()) res = stack.peek();
+            stack.push(i);
+            nseIndex[i] = res;
+        }
+        long sum = 0;
+        for(int i =0; i<len ; i++){
+            long temp = arr[i];
+            System.out.print(temp+" ");
+            if(pseIndex[i]==-1) temp*= i+1;
+            else temp*= i-pseIndex[i];
+            System.out.print(temp+" ");
+            if(nseIndex[i]==-1) temp*=len-i;
+            else temp*=nseIndex[i]-i;
+            System.out.println(temp+" ");
+            sum+= temp;
+        }
+        return (int)(sum%(1e9+7));
+    }
+}
