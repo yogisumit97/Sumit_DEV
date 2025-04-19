@@ -13,7 +13,7 @@ class Solution {
         }
         stack.clear();
         for(int i =len-1; i>=0 ; i--){
-            int res = -1;
+            int res = len;
             while(!stack.empty() && arr[stack.peek()]>arr[i]) stack.pop();
             if(!stack.empty()) res = stack.peek();
             stack.push(i);
@@ -21,12 +21,7 @@ class Solution {
         }
         long sum = 0;
         for(int i =0; i<len ; i++){
-            long temp = arr[i];
-            if(pseIndex[i]==-1) temp*= i+1;
-            else temp*= i-pseIndex[i];
-            if(nseIndex[i]==-1) temp*=len-i;
-            else temp*=nseIndex[i]-i;
-            sum+= temp;
+            sum+= ((long)arr[i]*(i-pseIndex[i])*(nseIndex[i]-i));
         }
         return (int)(sum%(1e9+7));
     }
