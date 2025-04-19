@@ -31,6 +31,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0943-sum-of-subarray-minimums](https://github.com/yogisumit97/Sumit_DEV/tree/master/0943-sum-of-subarray-minimums) |
 | [1656-count-good-triplets](https://github.com/yogisumit97/Sumit_DEV/tree/master/1656-count-good-triplets) |
 | [2047-find-a-peak-element-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/2047-find-a-peak-element-ii) |
+| [2227-sum-of-subarray-ranges](https://github.com/yogisumit97/Sumit_DEV/tree/master/2227-sum-of-subarray-ranges) |
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
 ## Hash Table
 |  |
@@ -173,6 +174,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0943-sum-of-subarray-minimums](https://github.com/yogisumit97/Sumit_DEV/tree/master/0943-sum-of-subarray-minimums) |
 | [1078-remove-outermost-parentheses](https://github.com/yogisumit97/Sumit_DEV/tree/master/1078-remove-outermost-parentheses) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/yogisumit97/Sumit_DEV/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
+| [2227-sum-of-subarray-ranges](https://github.com/yogisumit97/Sumit_DEV/tree/master/2227-sum-of-subarray-ranges) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -323,4 +325,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0496-next-greater-element-i](https://github.com/yogisumit97/Sumit_DEV/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0503-next-greater-element-ii) |
 | [0943-sum-of-subarray-minimums](https://github.com/yogisumit97/Sumit_DEV/tree/master/0943-sum-of-subarray-minimums) |
+| [2227-sum-of-subarray-ranges](https://github.com/yogisumit97/Sumit_DEV/tree/master/2227-sum-of-subarray-ranges) |
 <!---LeetCode Topics End-->
