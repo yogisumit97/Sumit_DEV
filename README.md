@@ -118,6 +118,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0139-word-break](https://github.com/yogisumit97/Sumit_DEV/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/yogisumit97/Sumit_DEV/tree/master/0151-reverse-words-in-a-string) |
 | [0168-excel-sheet-column-title](https://github.com/yogisumit97/Sumit_DEV/tree/master/0168-excel-sheet-column-title) |
+| [0171-excel-sheet-column-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/0171-excel-sheet-column-number) |
 | [0205-isomorphic-strings](https://github.com/yogisumit97/Sumit_DEV/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/yogisumit97/Sumit_DEV/tree/master/0242-valid-anagram) |
 | [0282-expression-add-operators](https://github.com/yogisumit97/Sumit_DEV/tree/master/0282-expression-add-operators) |
@@ -138,6 +139,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0069-sqrtx](https://github.com/yogisumit97/Sumit_DEV/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/yogisumit97/Sumit_DEV/tree/master/0070-climbing-stairs) |
 | [0168-excel-sheet-column-title](https://github.com/yogisumit97/Sumit_DEV/tree/master/0168-excel-sheet-column-title) |
+| [0171-excel-sheet-column-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/0171-excel-sheet-column-number) |
 | [0204-count-primes](https://github.com/yogisumit97/Sumit_DEV/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/yogisumit97/Sumit_DEV/tree/master/0231-power-of-two) |
 | [0282-expression-add-operators](https://github.com/yogisumit97/Sumit_DEV/tree/master/0282-expression-add-operators) |
