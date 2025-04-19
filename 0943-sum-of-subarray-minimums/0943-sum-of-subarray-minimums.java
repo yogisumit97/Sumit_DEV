@@ -21,7 +21,7 @@ class Solution {
         }
         long sum = 0;
         for(int i =0; i<len ; i++){
-            sum+= ((long)arr[i]*(i-pseIndex[i])*(nseIndex[i]-i));
+            sum+= (1L*arr[i]*(i-pseIndex[i])*(nseIndex[i]-i));
         }
         return (int)(sum%(1e9+7));
     }
