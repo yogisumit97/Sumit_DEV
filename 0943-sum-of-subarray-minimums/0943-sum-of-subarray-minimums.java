@@ -22,13 +22,10 @@ class Solution {
         long sum = 0;
         for(int i =0; i<len ; i++){
             long temp = arr[i];
-            System.out.print(temp+" ");
             if(pseIndex[i]==-1) temp*= i+1;
             else temp*= i-pseIndex[i];
-            System.out.print(temp+" ");
             if(nseIndex[i]==-1) temp*=len-i;
             else temp*=nseIndex[i]-i;
-            System.out.println(temp+" ");
             sum+= temp;
         }
         return (int)(sum%(1e9+7));
