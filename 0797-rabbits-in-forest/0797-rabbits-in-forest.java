@@ -3,16 +3,13 @@ class Solution {
         HashMap<Integer,Integer> hm = new HashMap<>();
         int ans = 0;
         for(int num : answers){
-            if(hm.containsKey(num)){
+            if(hm.containsKey(num) && num!=0){
                 hm.put(num, hm.get(num)+1);
-                if(hm.get(num) <=num+1) continue;
-                else{
-                    hm.remove(num);
-                }
+                if(hm.get(num) ==num+1) hm.remove(num);
+                continue;
             }
             ans+=1+num;
             hm.put(num,1);
-            //System.out.println(ans+" "+ " "+ num + "  "+ hm);
         }
         return ans;
     }
