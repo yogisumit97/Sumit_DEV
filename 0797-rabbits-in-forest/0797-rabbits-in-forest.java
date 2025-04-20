@@ -1,16 +1,11 @@
 class Solution {
     public int numRabbits(int[] answers) {
-        Arrays.sort(answers);
-        int prevNum = -1;
-        int count = 0;        
+        HashMap<Integer,Integer> mpp = new HashMap<>();
         int ans = 0;
-        for(int num : answers){
-            if(num==prevNum && count<=num) count++;
-            else{
-                prevNum = num;
-                count = 1;
-                ans+=num+1;
-            }
+        for(int num : answers) mpp.put(num, mpp.getOrDefault(num,0)+1);
+        for(Map.Entry<Integer, Integer> mapEntry : mpp.entrySet()){
+            int num = mapEntry.getKey()+1;
+            ans+= num*(Math.ceil(mapEntry.getValue()*1.0/num));
         }
         return ans;
     }
