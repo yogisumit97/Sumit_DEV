@@ -1,15 +1,16 @@
 class Solution {
     public int numRabbits(int[] answers) {
-        HashMap<Integer,Integer> hm = new HashMap<>();
+        Arrays.sort(answers);
+        int prevNum = -1;
+        int count = 0;        
         int ans = 0;
         for(int num : answers){
-            if(hm.containsKey(num) && num!=0){
-                hm.put(num, hm.get(num)+1);
-                if(hm.get(num) ==num+1) hm.remove(num);
-                continue;
+            if(num==prevNum && count<=num) count++;
+            else{
+                prevNum = num;
+                count = 1;
+                ans+=num+1;
             }
-            ans+=1+num;
-            hm.put(num,1);
         }
         return ans;
     }
