@@ -2,10 +2,9 @@ class Solution {
     public int numRabbits(int[] answers) {
         HashMap<Integer,Integer> mpp = new HashMap<>();
         int ans = 0;
-        for(int num : answers) mpp.put(num, mpp.getOrDefault(num,0)+1);
+        for(int num : answers) mpp.put(num+1, mpp.getOrDefault(num+1,0)+1);
         for(Map.Entry<Integer, Integer> mapEntry : mpp.entrySet()){
-            int num = mapEntry.getKey()+1;
-            ans+= num*(Math.ceil(mapEntry.getValue()*1.0/num));
+            ans+= mapEntry.getKey()*(Math.ceil(mapEntry.getValue()*1.0/mapEntry.getKey()));
         }
         return ans;
     }
