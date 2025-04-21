@@ -5,7 +5,7 @@ class Solution {
         int[] nseeIndex = findNseeHelper(heights, len);
         int maxArea = Integer.MIN_VALUE;
         for(int i =0; i<heights.length; i++){
-            int currArea = heights[i] * ((i-pseeIndex[i])+(nseeIndex[i]-i)-1);
+            int currArea = heights[i] * (nseeIndex[i]-pseeIndex[i]-1);
             maxArea = Math.max(maxArea, currArea);
         }
         return maxArea;
