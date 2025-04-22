@@ -1,34 +1,24 @@
 class Solution {
     public int largestRectangleArea(int[] heights) {
+        Stack<Integer> stack = new Stack<>(); //keeps indexes in Increasing order of heights
         int len = heights.length;
-        int[] pseeIndex = findPseeHelper(heights, len);
-        int[] nseeIndex = findNseeHelper(heights, len);
         int maxArea = Integer.MIN_VALUE;
-        for(int i =0; i<heights.length; i++){
-            int currArea = heights[i] * (nseeIndex[i]-pseeIndex[i]-1);
-            maxArea = Math.max(maxArea, currArea);
+        for(int i =0; i<len; i++){
+            while(!stack.empty() && heights[stack.peek()]>heights[i]){
+                int currNum = heights[stack.pop()];
+                int pseIndex = -1;
+                if(!stack.empty()) pseIndex = stack.peek();//after pop,top ele becomes pse
+                // we already know nse is i
+                maxArea = Math.max(maxArea, currNum*(i-pseIndex-1));
+            }
+            stack.push(i);
+        }
+        while(!stack.empty()){ // remaining stack had no nse, thus nse = len for calculation
+            int currNum = heights[stack.pop()];
+            int pseIndex = -1;
+            if(!stack.empty()) pseIndex = stack.peek();
+            maxArea = Math.max(maxArea, currNum*(len-pseIndex-1));
         }
         return maxArea;
     }
-    private int[] findPseeHelper(int[] arr, int len){
-        int[] pseIndex = new int[arr.length];
-        Stack<Integer> stack = new Stack<>();  
-        for(int i =0; i<len ; i++){
-            while(!stack.empty() && arr[stack.peek()]>=arr[i]) stack.pop();
-            pseIndex[i] = stack.empty() ? -1 : stack.peek();
-            stack.push(i); 
-        }
-        return pseIndex;
-    }
-    private int[] findNseeHelper(int[] arr, int len){
-        int[] nseIndex = new int[arr.length];
-        Stack<Integer> stack = new Stack<>();  
-        for(int i =len-1; i>=0 ; i--){
-            while(!stack.empty() && arr[stack.peek()]>=arr[i]) stack.pop(); 
-            nseIndex[i] = stack.empty() ? len : stack.peek();
-            stack.push(i);
-        }
-        return nseIndex;
-    }
 }
- 
