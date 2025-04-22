@@ -3,20 +3,20 @@ class Solution {
         int maxArea = Integer.MIN_VALUE;
         int m = matrix.length;
         int n = matrix[0].length;
-        int[][] mat = new int[m][n];
+        int[][] prefixSum = new int[m][n];
         for(int i=0; i<m; i++){
             for(int j=0; j<n; j++){ // store prefix sum
                 if(i==0){
-                    mat[i][j] = (int)(matrix[i][j]-'0');
+                    prefixSum[i][j] = (int)(matrix[i][j]-'0');
                 }
                 else if(matrix[i][j]=='0'){
-                    mat[i][j] = 0;
+                    prefixSum[i][j] = 0;
                 }
-                else mat[i][j] = mat[i-1][j]+1;
+                else prefixSum[i][j] = prefixSum[i-1][j]+1;
             }
         }
         for(int i =0; i<m; i++){
-            maxArea = Math.max(maxArea,largestRectangleArea(mat[i]));
+            maxArea = Math.max(maxArea,largestRectangleArea(prefixSum[i]));
         }
         return maxArea;
     }
