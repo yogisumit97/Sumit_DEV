@@ -37,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0797-rabbits-in-forest](https://github.com/yogisumit97/Sumit_DEV/tree/master/0797-rabbits-in-forest) |
 | [0943-sum-of-subarray-minimums](https://github.com/yogisumit97/Sumit_DEV/tree/master/0943-sum-of-subarray-minimums) |
 | [1046-max-consecutive-ones-iii](https://github.com/yogisumit97/Sumit_DEV/tree/master/1046-max-consecutive-ones-iii) |
+| [1603-running-sum-of-1d-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/1603-running-sum-of-1d-array) |
 | [1656-count-good-triplets](https://github.com/yogisumit97/Sumit_DEV/tree/master/1656-count-good-triplets) |
 | [2047-find-a-peak-element-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/2047-find-a-peak-element-ii) |
 | [2227-sum-of-subarray-ranges](https://github.com/yogisumit97/Sumit_DEV/tree/master/2227-sum-of-subarray-ranges) |
@@ -99,6 +100,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0410-split-array-largest-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/yogisumit97/Sumit_DEV/tree/master/1046-max-consecutive-ones-iii) |
+| [1603-running-sum-of-1d-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/1603-running-sum-of-1d-array) |
 ## Two Pointers
 |  |
 | ------- |
