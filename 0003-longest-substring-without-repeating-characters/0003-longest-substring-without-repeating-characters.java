@@ -2,7 +2,7 @@ class Solution {
     public int lengthOfLongestSubstring(String s) {
         if(s.length()==0) return 0;
         int[] hm = new int[256]; // for hashing on characters.
-        int maxLen = Integer.MIN_VALUE;
+        int maxLen = -1;
         int l = 0;
         int r = 0;
         while(r<s.length()){
