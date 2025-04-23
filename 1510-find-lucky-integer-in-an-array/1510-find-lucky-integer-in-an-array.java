@@ -5,8 +5,8 @@ class Solution {
         for(int num : arr){
             mpp.put(num, mpp.getOrDefault(num,0)+1);
         }
-        for(Map.Entry<Integer,Integer> entry : mpp.entrySet()){
-            if(entry.getKey()==entry.getValue()) count = Math.max(count, entry.getKey());
+        for(int key : mpp.keySet()){
+            if(key ==mpp.get(key)) count = Math.max(count,key);
         }
         return count;
     }
