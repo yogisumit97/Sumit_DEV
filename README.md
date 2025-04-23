@@ -42,6 +42,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2047-find-a-peak-element-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/2047-find-a-peak-element-ii) |
 | [2227-sum-of-subarray-ranges](https://github.com/yogisumit97/Sumit_DEV/tree/master/2227-sum-of-subarray-ranges) |
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
+| [3311-ant-on-the-boundary](https://github.com/yogisumit97/Sumit_DEV/tree/master/3311-ant-on-the-boundary) |
 ## Hash Table
 |  |
 | ------- |
@@ -101,6 +102,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0410-split-array-largest-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0410-split-array-largest-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/yogisumit97/Sumit_DEV/tree/master/1046-max-consecutive-ones-iii) |
 | [1603-running-sum-of-1d-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/1603-running-sum-of-1d-array) |
+| [3311-ant-on-the-boundary](https://github.com/yogisumit97/Sumit_DEV/tree/master/3311-ant-on-the-boundary) |
 ## Two Pointers
 |  |
 | ------- |
@@ -299,6 +301,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0735-asteroid-collision](https://github.com/yogisumit97/Sumit_DEV/tree/master/0735-asteroid-collision) |
+| [3311-ant-on-the-boundary](https://github.com/yogisumit97/Sumit_DEV/tree/master/3311-ant-on-the-boundary) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/yogisumit97/Sumit_DEV/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Backtracking
 |  |
