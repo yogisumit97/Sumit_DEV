@@ -1,19 +1,23 @@
-class Solution { //can be done using sliding window technique
+class Solution {
     public int lengthOfLongestSubstring(String s) {
-        int max = 0;
-        int left = 0;
-        int right = 0;
-        HashSet<Character> hset = new HashSet<>();
-        while(right<s.length()){
-            char curr = s.charAt(right);
-            while(hset.contains(curr)){
-                hset.remove(s.charAt(left));
-                left++;
+        if(s.length()==0) return 0;
+        int[] hm = new int[256]; // for hashing on characters.
+        int maxLen = Integer.MIN_VALUE;
+        int l = 0;
+        int r = 0;
+        while(r<s.length()){
+            char ch = s.charAt(r);
+            if(hm[ch] != 0){
+                while(s.charAt(l)!=ch){
+                    hm[s.charAt(l)] = 0;
+                    l++;
+                }
+                l++;
             }
-            hset.add(curr);
-            max = Math.max(max, right-left+1);
-            right++;
+            hm[ch] = r+1;
+            maxLen = Math.max(maxLen,r-l+1);
+            r++;
         }
-        return max;
+        return maxLen;
     }
 }
