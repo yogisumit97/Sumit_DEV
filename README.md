@@ -39,6 +39,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0943-sum-of-subarray-minimums](https://github.com/yogisumit97/Sumit_DEV/tree/master/0943-sum-of-subarray-minimums) |
 | [0966-binary-subarrays-with-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/yogisumit97/Sumit_DEV/tree/master/1046-max-consecutive-ones-iii) |
+| [1370-count-number-of-nice-subarrays](https://github.com/yogisumit97/Sumit_DEV/tree/master/1370-count-number-of-nice-subarrays) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1603-running-sum-of-1d-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/1603-running-sum-of-1d-array) |
 | [1656-count-good-triplets](https://github.com/yogisumit97/Sumit_DEV/tree/master/1656-count-good-triplets) |
@@ -69,6 +70,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0797-rabbits-in-forest](https://github.com/yogisumit97/Sumit_DEV/tree/master/0797-rabbits-in-forest) |
 | [0940-fruit-into-baskets](https://github.com/yogisumit97/Sumit_DEV/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0966-binary-subarrays-with-sum) |
+| [1370-count-number-of-nice-subarrays](https://github.com/yogisumit97/Sumit_DEV/tree/master/1370-count-number-of-nice-subarrays) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/yogisumit97/Sumit_DEV/tree/master/1890-sum-of-beauty-of-all-substrings) |
 ## Binary Search
@@ -109,6 +111,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0410-split-array-largest-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0410-split-array-largest-sum) |
 | [0966-binary-subarrays-with-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/yogisumit97/Sumit_DEV/tree/master/1046-max-consecutive-ones-iii) |
+| [1370-count-number-of-nice-subarrays](https://github.com/yogisumit97/Sumit_DEV/tree/master/1370-count-number-of-nice-subarrays) |
 | [1603-running-sum-of-1d-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/1603-running-sum-of-1d-array) |
 | [3311-ant-on-the-boundary](https://github.com/yogisumit97/Sumit_DEV/tree/master/3311-ant-on-the-boundary) |
 ## Two Pointers
@@ -177,6 +180,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0405-convert-a-number-to-hexadecimal](https://github.com/yogisumit97/Sumit_DEV/tree/master/0405-convert-a-number-to-hexadecimal) |
 | [0797-rabbits-in-forest](https://github.com/yogisumit97/Sumit_DEV/tree/master/0797-rabbits-in-forest) |
 | [1013-fibonacci-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/1013-fibonacci-number) |
+| [1370-count-number-of-nice-subarrays](https://github.com/yogisumit97/Sumit_DEV/tree/master/1370-count-number-of-nice-subarrays) |
 | [1610-xor-operation-in-an-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/1610-xor-operation-in-an-array) |
 | [2032-largest-odd-number-in-string](https://github.com/yogisumit97/Sumit_DEV/tree/master/2032-largest-odd-number-in-string) |
 | [2050-count-good-numbers](https://github.com/yogisumit97/Sumit_DEV/tree/master/2050-count-good-numbers) |
@@ -375,6 +379,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0940-fruit-into-baskets](https://github.com/yogisumit97/Sumit_DEV/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/yogisumit97/Sumit_DEV/tree/master/1046-max-consecutive-ones-iii) |
+| [1370-count-number-of-nice-subarrays](https://github.com/yogisumit97/Sumit_DEV/tree/master/1370-count-number-of-nice-subarrays) |
 ## Monotonic Stack
 |  |
 | ------- |
