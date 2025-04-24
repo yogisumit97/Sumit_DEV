@@ -5,25 +5,21 @@ class Solution {
         return countSubarraysHelper(nums, hset.size());
     }
     private int countSubarraysHelper(int[] arr, int elements) {
-        int len = arr.length;
         int count = 0;
-        int l = 0;
-        int r = 0;
-        HashMap<Integer,Integer> hm = new HashMap<>();// to track freq of a,b,c
-        while(r<len){
-            hm.put(arr[r],hm.getOrDefault(arr[r],0)+1);
+        HashMap<Integer,Integer> hm = new HashMap<>();// to track indexes
+        for(int i =0; i<arr.length;i++){
+            hm.put(arr[i],i);
             if(hm.size()==elements){ //all present, count and shrink window.
-                //System.out.println(s.substring(l,r+1)+" "+ curr+" "+hash[0]+hash[1]+hash[2]+" "+count);
-                while(hm.size()==elements){
-                    hm.put(arr[l],hm.get(arr[l])-1);
-                    if(hm.get(arr[l])==0) hm.remove(arr[l]);
-                    count+=len-r;
-                    l++;
+                if(hm.size()==elements){
+                    //count+=min of hashmap values +1
+                    int min = Integer.MAX_VALUE;
+                    for(int value : hm.values()) min = Math.min(min, value);
+                    count+= min+1;
                 }
             }
-            //System.out.println(s.substring(l,r+1)+" "+ curr+" "+hash[0]+hash[1]+hash[2]+" "+count);
-            r++;
         }
         return count;
     }
 }
+
+
