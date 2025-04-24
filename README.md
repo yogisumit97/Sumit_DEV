@@ -62,6 +62,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0205-isomorphic-strings](https://github.com/yogisumit97/Sumit_DEV/tree/master/0205-isomorphic-strings) |
 | [0219-contains-duplicate-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/yogisumit97/Sumit_DEV/tree/master/0242-valid-anagram) |
+| [0424-longest-repeating-character-replacement](https://github.com/yogisumit97/Sumit_DEV/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/yogisumit97/Sumit_DEV/tree/master/0451-sort-characters-by-frequency) |
 | [0496-next-greater-element-i](https://github.com/yogisumit97/Sumit_DEV/tree/master/0496-next-greater-element-i) |
 | [0797-rabbits-in-forest](https://github.com/yogisumit97/Sumit_DEV/tree/master/0797-rabbits-in-forest) |
@@ -146,6 +147,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0282-expression-add-operators](https://github.com/yogisumit97/Sumit_DEV/tree/master/0282-expression-add-operators) |
 | [0344-reverse-string](https://github.com/yogisumit97/Sumit_DEV/tree/master/0344-reverse-string) |
 | [0402-remove-k-digits](https://github.com/yogisumit97/Sumit_DEV/tree/master/0402-remove-k-digits) |
+| [0424-longest-repeating-character-replacement](https://github.com/yogisumit97/Sumit_DEV/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/yogisumit97/Sumit_DEV/tree/master/0451-sort-characters-by-frequency) |
 | [0812-rotate-string](https://github.com/yogisumit97/Sumit_DEV/tree/master/0812-rotate-string) |
 | [1078-remove-outermost-parentheses](https://github.com/yogisumit97/Sumit_DEV/tree/master/1078-remove-outermost-parentheses) |
@@ -366,6 +368,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0003-longest-substring-without-repeating-characters](https://github.com/yogisumit97/Sumit_DEV/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0219-contains-duplicate-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0219-contains-duplicate-ii) |
 | [0239-sliding-window-maximum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0239-sliding-window-maximum) |
+| [0424-longest-repeating-character-replacement](https://github.com/yogisumit97/Sumit_DEV/tree/master/0424-longest-repeating-character-replacement) |
 | [0940-fruit-into-baskets](https://github.com/yogisumit97/Sumit_DEV/tree/master/0940-fruit-into-baskets) |
 | [1046-max-consecutive-ones-iii](https://github.com/yogisumit97/Sumit_DEV/tree/master/1046-max-consecutive-ones-iii) |
 ## Monotonic Stack
