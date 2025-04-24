@@ -17,7 +17,7 @@ class Solution {
             count+=r-l+1; //increase count by len >> subarraysEnding here.
             r++;
         }
-        System.out.println(count);
+        //System.out.println(count);
         return count;
     }
 }
