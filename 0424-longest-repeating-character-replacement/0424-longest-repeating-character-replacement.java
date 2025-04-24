@@ -18,6 +18,7 @@ class Solution {
                 l++;
                 maxFreq = 0;
                 for(int i : hash){
+                    if(i==0) continue;
                     maxFreq = Math.max(maxFreq, i); 
                 }
             }
