@@ -1,24 +1,14 @@
 class Solution {
     public int numberOfSubstrings(String s) {
-        int len = s.length();
         int count = 0;
-        int l = 0;
-        int r = 0;
-        int[] hash = new int[3];// to track freq of a,b,c
-        while(r<len){
-            char curr = s.charAt(r);
-            hash[curr-'a']++;
-            if(hash[0]>0 && hash[1]>0 && hash[2]>0){ //all 3 present, count and shrink window.
-                //System.out.println(s.substring(l,r+1)+" "+ curr+" "+hash[0]+hash[1]+hash[2]+" "+count);
-                while(hash[0]!=0 && hash[1]!=0 && hash[2]!=0){
-                    char ch = s.charAt(l);
-                    hash[ch-'a']--;
-                    count+=len-r;
-                    l++;
-                }
+        int[] hash = new int[3]; // all 3 stores lastSpottedAddress for corresponding characters a,b,c
+        hash[0] = -1; hash[1] = -1; hash[2] = -1; //as storing index, initialize it with -1 
+        for(int i =0; i<s.length(); i++){
+            char curr = s.charAt(i);
+            hash[curr-'a'] = i;
+            if(hash[0]!=-1 && hash[1]!=-1 && hash[2]!=-1){
+                count+= Math.min(hash[0], Math.min(hash[1],hash[2]))+1;
             }
-            //System.out.println(s.substring(l,r+1)+" "+ curr+" "+hash[0]+hash[1]+hash[2]+" "+count);
-            r++;
         }
         return count;
     }
