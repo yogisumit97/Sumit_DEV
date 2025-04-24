@@ -35,6 +35,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0503-next-greater-element-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/yogisumit97/Sumit_DEV/tree/master/0735-asteroid-collision) |
 | [0797-rabbits-in-forest](https://github.com/yogisumit97/Sumit_DEV/tree/master/0797-rabbits-in-forest) |
+| [0940-fruit-into-baskets](https://github.com/yogisumit97/Sumit_DEV/tree/master/0940-fruit-into-baskets) |
 | [0943-sum-of-subarray-minimums](https://github.com/yogisumit97/Sumit_DEV/tree/master/0943-sum-of-subarray-minimums) |
 | [1046-max-consecutive-ones-iii](https://github.com/yogisumit97/Sumit_DEV/tree/master/1046-max-consecutive-ones-iii) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/1510-find-lucky-integer-in-an-array) |
@@ -64,6 +65,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0451-sort-characters-by-frequency](https://github.com/yogisumit97/Sumit_DEV/tree/master/0451-sort-characters-by-frequency) |
 | [0496-next-greater-element-i](https://github.com/yogisumit97/Sumit_DEV/tree/master/0496-next-greater-element-i) |
 | [0797-rabbits-in-forest](https://github.com/yogisumit97/Sumit_DEV/tree/master/0797-rabbits-in-forest) |
+| [0940-fruit-into-baskets](https://github.com/yogisumit97/Sumit_DEV/tree/master/0940-fruit-into-baskets) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/yogisumit97/Sumit_DEV/tree/master/1890-sum-of-beauty-of-all-substrings) |
 ## Binary Search
@@ -364,6 +366,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0003-longest-substring-without-repeating-characters](https://github.com/yogisumit97/Sumit_DEV/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0219-contains-duplicate-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0219-contains-duplicate-ii) |
 | [0239-sliding-window-maximum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0239-sliding-window-maximum) |
+| [0940-fruit-into-baskets](https://github.com/yogisumit97/Sumit_DEV/tree/master/0940-fruit-into-baskets) |
 | [1046-max-consecutive-ones-iii](https://github.com/yogisumit97/Sumit_DEV/tree/master/1046-max-consecutive-ones-iii) |
 ## Monotonic Stack
 |  |
