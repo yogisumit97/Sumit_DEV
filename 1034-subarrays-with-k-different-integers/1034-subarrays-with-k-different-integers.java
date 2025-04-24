@@ -7,7 +7,7 @@ class Solution {
 		HashMap<Integer,Integer> hm = new HashMap<>();//freq store
 		int l = 0;
 		int r = 0;
-		int maxLen = 0;
+		int count = 0;
 		while(r<nums.length){
             int curr = nums[r];
 			hm.put(curr, hm.getOrDefault(curr,0)+1);
@@ -17,9 +17,9 @@ class Solution {
 				if(hm.get(temp)==0) hm.remove(temp);
                 l = l+1;
 			}
-            maxLen+= r-l+1;
+            count+= r-l+1;
             r++;
 		}
-		return maxLen;
+		return count;
 	}
 }
