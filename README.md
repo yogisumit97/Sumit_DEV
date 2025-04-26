@@ -21,6 +21,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0079-word-search](https://github.com/yogisumit97/Sumit_DEV/tree/master/0079-word-search) |
 | [0084-largest-rectangle-in-histogram](https://github.com/yogisumit97/Sumit_DEV/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/yogisumit97/Sumit_DEV/tree/master/0085-maximal-rectangle) |
+| [0088-merge-sorted-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/0088-merge-sorted-array) |
 | [0090-subsets-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0090-subsets-ii) |
 | [0118-pascals-triangle](https://github.com/yogisumit97/Sumit_DEV/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0119-pascals-triangle-ii) |
@@ -140,6 +141,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0019-remove-nth-node-from-end-of-list](https://github.com/yogisumit97/Sumit_DEV/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0042-trapping-rain-water](https://github.com/yogisumit97/Sumit_DEV/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/yogisumit97/Sumit_DEV/tree/master/0061-rotate-list) |
+| [0088-merge-sorted-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/0088-merge-sorted-array) |
 | [0141-linked-list-cycle](https://github.com/yogisumit97/Sumit_DEV/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0142-linked-list-cycle-ii) |
 | [0148-sort-list](https://github.com/yogisumit97/Sumit_DEV/tree/master/0148-sort-list) |
@@ -220,6 +222,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [0088-merge-sorted-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/0088-merge-sorted-array) |
 | [0148-sort-list](https://github.com/yogisumit97/Sumit_DEV/tree/master/0148-sort-list) |
 | [0215-kth-largest-element-in-an-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/0215-kth-largest-element-in-an-array) |
 | [0242-valid-anagram](https://github.com/yogisumit97/Sumit_DEV/tree/master/0242-valid-anagram) |
