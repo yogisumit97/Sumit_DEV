@@ -27,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0090-subsets-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0090-subsets-ii) |
 | [0118-pascals-triangle](https://github.com/yogisumit97/Sumit_DEV/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0119-pascals-triangle-ii) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/yogisumit97/Sumit_DEV/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0139-word-break](https://github.com/yogisumit97/Sumit_DEV/tree/master/0139-word-break) |
 | [0169-majority-element](https://github.com/yogisumit97/Sumit_DEV/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/0189-rotate-array) |
@@ -111,6 +112,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0085-maximal-rectangle](https://github.com/yogisumit97/Sumit_DEV/tree/master/0085-maximal-rectangle) |
 | [0118-pascals-triangle](https://github.com/yogisumit97/Sumit_DEV/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0119-pascals-triangle-ii) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/yogisumit97/Sumit_DEV/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0131-palindrome-partitioning](https://github.com/yogisumit97/Sumit_DEV/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/yogisumit97/Sumit_DEV/tree/master/0139-word-break) |
 | [0410-split-array-largest-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0410-split-array-largest-sum) |
