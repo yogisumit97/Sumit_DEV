@@ -36,6 +36,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0503-next-greater-element-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/yogisumit97/Sumit_DEV/tree/master/0735-asteroid-collision) |
 | [0797-rabbits-in-forest](https://github.com/yogisumit97/Sumit_DEV/tree/master/0797-rabbits-in-forest) |
+| [0890-lemonade-change](https://github.com/yogisumit97/Sumit_DEV/tree/master/0890-lemonade-change) |
 | [0940-fruit-into-baskets](https://github.com/yogisumit97/Sumit_DEV/tree/master/0940-fruit-into-baskets) |
 | [0943-sum-of-subarray-minimums](https://github.com/yogisumit97/Sumit_DEV/tree/master/0943-sum-of-subarray-minimums) |
 | [0966-binary-subarrays-with-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0966-binary-subarrays-with-sum) |
@@ -112,6 +113,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0410-split-array-largest-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0410-split-array-largest-sum) |
 | [0455-assign-cookies](https://github.com/yogisumit97/Sumit_DEV/tree/master/0455-assign-cookies) |
 | [0797-rabbits-in-forest](https://github.com/yogisumit97/Sumit_DEV/tree/master/0797-rabbits-in-forest) |
+| [0890-lemonade-change](https://github.com/yogisumit97/Sumit_DEV/tree/master/0890-lemonade-change) |
 | [2032-largest-odd-number-in-string](https://github.com/yogisumit97/Sumit_DEV/tree/master/2032-largest-odd-number-in-string) |
 ## Prefix Sum
 |  |
