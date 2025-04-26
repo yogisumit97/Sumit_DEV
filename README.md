@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0039-combination-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/yogisumit97/Sumit_DEV/tree/master/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/yogisumit97/Sumit_DEV/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/yogisumit97/Sumit_DEV/tree/master/0051-n-queens) |
 | [0055-jump-game](https://github.com/yogisumit97/Sumit_DEV/tree/master/0055-jump-game) |
@@ -98,6 +99,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/yogisumit97/Sumit_DEV/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/yogisumit97/Sumit_DEV/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/yogisumit97/Sumit_DEV/tree/master/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/yogisumit97/Sumit_DEV/tree/master/0055-jump-game) |
 | [0070-climbing-stairs](https://github.com/yogisumit97/Sumit_DEV/tree/master/0070-climbing-stairs) |
 | [0085-maximal-rectangle](https://github.com/yogisumit97/Sumit_DEV/tree/master/0085-maximal-rectangle) |
@@ -112,6 +114,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/yogisumit97/Sumit_DEV/tree/master/0055-jump-game) |
 | [0402-remove-k-digits](https://github.com/yogisumit97/Sumit_DEV/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0410-split-array-largest-sum) |
