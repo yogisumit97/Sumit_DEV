@@ -28,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0118-pascals-triangle](https://github.com/yogisumit97/Sumit_DEV/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0119-pascals-triangle-ii) |
 | [0139-word-break](https://github.com/yogisumit97/Sumit_DEV/tree/master/0139-word-break) |
+| [0169-majority-element](https://github.com/yogisumit97/Sumit_DEV/tree/master/0169-majority-element) |
 | [0204-count-primes](https://github.com/yogisumit97/Sumit_DEV/tree/master/0204-count-primes) |
 | [0215-kth-largest-element-in-an-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0216-combination-sum-iii) |
@@ -72,6 +73,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0142-linked-list-cycle-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/yogisumit97/Sumit_DEV/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/yogisumit97/Sumit_DEV/tree/master/0160-intersection-of-two-linked-lists) |
+| [0169-majority-element](https://github.com/yogisumit97/Sumit_DEV/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/yogisumit97/Sumit_DEV/tree/master/0205-isomorphic-strings) |
 | [0219-contains-duplicate-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/yogisumit97/Sumit_DEV/tree/master/0242-valid-anagram) |
@@ -228,6 +230,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0088-merge-sorted-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/0088-merge-sorted-array) |
 | [0148-sort-list](https://github.com/yogisumit97/Sumit_DEV/tree/master/0148-sort-list) |
+| [0169-majority-element](https://github.com/yogisumit97/Sumit_DEV/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/0215-kth-largest-element-in-an-array) |
 | [0242-valid-anagram](https://github.com/yogisumit97/Sumit_DEV/tree/master/0242-valid-anagram) |
 | [0414-third-maximum-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/0414-third-maximum-number) |
@@ -259,6 +262,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0004-median-of-two-sorted-arrays](https://github.com/yogisumit97/Sumit_DEV/tree/master/0004-median-of-two-sorted-arrays) |
 | [0023-merge-k-sorted-lists](https://github.com/yogisumit97/Sumit_DEV/tree/master/0023-merge-k-sorted-lists) |
 | [0148-sort-list](https://github.com/yogisumit97/Sumit_DEV/tree/master/0148-sort-list) |
+| [0169-majority-element](https://github.com/yogisumit97/Sumit_DEV/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/0215-kth-largest-element-in-an-array) |
 ## Matrix
 |  |
@@ -304,6 +308,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/yogisumit97/Sumit_DEV/tree/master/0169-majority-element) |
 | [0451-sort-characters-by-frequency](https://github.com/yogisumit97/Sumit_DEV/tree/master/0451-sort-characters-by-frequency) |
 | [1034-subarrays-with-k-different-integers](https://github.com/yogisumit97/Sumit_DEV/tree/master/1034-subarrays-with-k-different-integers) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/1510-find-lucky-integer-in-an-array) |
