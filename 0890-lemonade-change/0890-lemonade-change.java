@@ -1,26 +1,21 @@
 class Solution {
     public boolean lemonadeChange(int[] bills) {
-        int[] galla = new int[3]; // 5 10 20 only, and initially all 0. 
-        for(int note : bills){
-            if(note == 5) galla[0]++; //increase 5 rupee notes 
-            else if(note == 10){
-                if(galla[0]==0) return false; //no 5 rupee note to give
-                else galla[0]--;
-                galla[1]++;
+        int five = 0;
+        int ten =  0;
+        for(int i : bills){
+            if(i==5) five++;
+            else if(i==10){
+                ten++;
+                five--;
             }
-            else{
-                if(galla[0]==0) return false;
-                if(galla[1] !=0){
-                    galla[1]--; //one 10 ruppe note
-                    galla[0]--; // one 5 rupee note
+            else if(i==20){
+                if(ten!=0){
+                    ten--;
+                    five--;
                 }
-                else{
-                    if(galla[0]>=3) galla[0]-=3; //5*3 notes
-                    else return false;
-                }
-                galla[2]++;
+                else five-=3;
             }
-            //System.out.println(note + " Galla: "+galla[0]+" "+galla[1]+" "+galla[2]);
+            if(five<0 || ten<0) return false;
         }
         return true;
     }
