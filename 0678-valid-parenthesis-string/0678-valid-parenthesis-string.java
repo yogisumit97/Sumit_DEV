@@ -10,17 +10,17 @@ class Solution {
                 max++;
             }
             else if(curr=='*'){ //dont take anything min stays same. take it max increases. thus range.
-                if(min>0) min--;
+                min--;
                 max++;
             }
             else if(curr==')'){
-                if(min>0) min--;
+                min--;
                 max--;
             }
-            if(max<0) return false;
             //System.out.println(curr+" "+min+" "+max);
+            if(max<0) return false;
+            if(min<0) min = 0;
         }
-        if(min==0 && max>=0) return true;
-        return false;
+        return min==0? true : false;
     }
 }
