@@ -29,6 +29,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0119-pascals-triangle-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0119-pascals-triangle-ii) |
 | [0139-word-break](https://github.com/yogisumit97/Sumit_DEV/tree/master/0139-word-break) |
 | [0169-majority-element](https://github.com/yogisumit97/Sumit_DEV/tree/master/0169-majority-element) |
+| [0189-rotate-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/yogisumit97/Sumit_DEV/tree/master/0204-count-primes) |
 | [0215-kth-largest-element-in-an-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0216-combination-sum-iii) |
@@ -153,6 +154,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0148-sort-list](https://github.com/yogisumit97/Sumit_DEV/tree/master/0148-sort-list) |
 | [0151-reverse-words-in-a-string](https://github.com/yogisumit97/Sumit_DEV/tree/master/0151-reverse-words-in-a-string) |
 | [0160-intersection-of-two-linked-lists](https://github.com/yogisumit97/Sumit_DEV/tree/master/0160-intersection-of-two-linked-lists) |
+| [0189-rotate-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/yogisumit97/Sumit_DEV/tree/master/0234-palindrome-linked-list) |
 | [0344-reverse-string](https://github.com/yogisumit97/Sumit_DEV/tree/master/0344-reverse-string) |
 | [0455-assign-cookies](https://github.com/yogisumit97/Sumit_DEV/tree/master/0455-assign-cookies) |
@@ -202,6 +204,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0070-climbing-stairs](https://github.com/yogisumit97/Sumit_DEV/tree/master/0070-climbing-stairs) |
 | [0168-excel-sheet-column-title](https://github.com/yogisumit97/Sumit_DEV/tree/master/0168-excel-sheet-column-title) |
 | [0171-excel-sheet-column-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/0171-excel-sheet-column-number) |
+| [0189-rotate-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/yogisumit97/Sumit_DEV/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/yogisumit97/Sumit_DEV/tree/master/0231-power-of-two) |
 | [0282-expression-add-operators](https://github.com/yogisumit97/Sumit_DEV/tree/master/0282-expression-add-operators) |
