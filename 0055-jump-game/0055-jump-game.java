@@ -13,7 +13,6 @@ class Solution {
             }
             //System.out.println(i+" "+maxDistancePossible+" "+nextPoint);
             if(nextPoint!=nums.length-1 && nums[nextPoint]==0) return false;
-            else if(nextPoint ==nums.length-1) return true;
             i = nextPoint;
         }
         return true;
