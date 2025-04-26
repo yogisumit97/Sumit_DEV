@@ -13,7 +13,7 @@ class Solution {
                     nextPoint = j;
                 }
             }
-            if(nextPoint!=len-1 && nums[nextPoint]==0) return false;
+            if(nums[nextPoint]==0 && nextPoint!=len-1) return false;
             i = nextPoint;
         }
         return true;
