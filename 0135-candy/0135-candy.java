@@ -25,12 +25,10 @@ class Solution {
         for(Rating r : rating){ //r.rating is present rating which is in ascending order
             int i = r.index;
             if(i!=0 && i!=len-1){
-                if(ratings[i]==ratings[i-1] && ratings[i]<=ratings[i+1]){
-                    candies[i] = 1;
+                if(ratings[i]==ratings[i-1]){
+                    if(ratings[i]<=ratings[i+1]) candies[i] = 1;
+                    else candies[i] = candies[i+1]+1;
                 }
-                else if(ratings[i]==ratings[i-1] && ratings[i]>ratings[i+1]){
-                    candies[i] = candies[i+1]+1;
-                } 
                 else candies[i] = Math.max(candies[i-1], candies[i+1])+1;
             }
             else if(i==0) candies[i] = candies[i+1]+1;
