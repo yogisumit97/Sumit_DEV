@@ -1,23 +1,28 @@
 class Solution {
-    public int candy(int[] ratings) {
+    public int candy(int[] ratings) { //slope method
+        int i = 1;
         int len = ratings.length;
-        int[] temp = new int[len];
-        temp[len-1] = 1;
-        for(int i =len-2; i>=0; i--){
-            if(ratings[i]>ratings[i+1]) temp[i] = temp[i+1]+1;
-            else temp[i]=1;
-        }
-        int maxCandies = Math.max(temp[0],1);   
-        int curr=  1;
-        int left = 1;
-        for(int i =1; i<len; i++){
-            if(ratings[i]>ratings[i-1]){
-                curr = left+1;
+        int sum = 1; // first person 1 candy assigned
+        while(i<len){
+            if(ratings[i] == ratings[i-1]){
+                sum+=1;//flat slope
+                i++;
+                continue;
             }
-            else curr = 1;
-            left = curr;
-            maxCandies+= Math.max(temp[i], curr);
+            int peak = 1;
+            while(i<len && ratings[i]>ratings[i-1]){  // increasing/upward slope
+                peak+=1;
+                sum+=peak;
+                i++;
+            }
+            int down = 1;
+            while(i<len && ratings[i]<ratings[i-1]){  // downward/decreasing slope
+                sum+=down;
+                down+=1;
+                i++;
+            }
+            if(down>peak) sum+=down-peak;
         }
-        return maxCandies;
+        return sum;
     }
 }
