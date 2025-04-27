@@ -1,29 +1,24 @@
 class Solution {
     public int[][] insert(int[][] intervals, int[] newInterval) {
         List<List<Integer>> list = new ArrayList<>();
-        int count = 0;
-        for(int[] arr : intervals){
-            if(count ==0 && arr[0]> newInterval[0]){
-                List<Integer> li = new ArrayList<>();
-                li.add(newInterval[0]);li.add(newInterval[1]); list.add(li); //add new Interval 
-                count = 1;
-            }
+        int i =0;
+        int len = intervals.length;
+        while(i< len && newInterval[0] > intervals[i][1]){ // left most part where no overlap
             List<Integer> l = new ArrayList<>();
-            l.add(arr[0]);l.add(arr[1]); list.add(l); //add element
+            l.add(intervals[i][0]); l.add(intervals[i][1]); list.add(l); 
+            i++;
         }
-        if(count ==0){
-            List<Integer> li = new ArrayList<>();
-            li.add(newInterval[0]);li.add(newInterval[1]); list.add(li); //add new Interval 
+        while(i< len && newInterval[1] >= intervals[i][0]){ // middle part where overlap 
+            newInterval[0] = Math.min(newInterval[0], intervals[i][0]);
+            newInterval[1] = Math.max(newInterval[1], intervals[i][1]);
+            i++;
         }
-        int i =1;
-        while(i<list.size()){
-            List<Integer> curr = list.get(i);
-            List<Integer> prev = list.get(i-1);
-            if(prev.get(1)>=curr.get(0)){
-                list.get(i-1).set(1, Math.max(curr.get(1), prev.get(1)));
-                list.remove(i);
-            }
-            else i++;
+        List<Integer> li = new ArrayList<>();
+        li.add(newInterval[0]); li.add(newInterval[1]); list.add(li); 
+        while(i< len && newInterval[1] < intervals[i][0]){ // right most part where no overlap
+            List<Integer> l = new ArrayList<>();
+            l.add(intervals[i][0]); l.add(intervals[i][1]); list.add(l); 
+            i++;
         }
         int[][] mat = new int[list.size()][2];
         for(i =0; i<list.size(); i++){
