@@ -254,6 +254,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/yogisumit97/Sumit_DEV/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/yogisumit97/Sumit_DEV/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/yogisumit97/Sumit_DEV/tree/master/0085-maximal-rectangle) |
+| [0144-binary-tree-preorder-traversal](https://github.com/yogisumit97/Sumit_DEV/tree/master/0144-binary-tree-preorder-traversal) |
 | [0155-min-stack](https://github.com/yogisumit97/Sumit_DEV/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/yogisumit97/Sumit_DEV/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/yogisumit97/Sumit_DEV/tree/master/0232-implement-queue-using-stacks) |
@@ -389,6 +390,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0079-word-search](https://github.com/yogisumit97/Sumit_DEV/tree/master/0079-word-search) |
+| [0144-binary-tree-preorder-traversal](https://github.com/yogisumit97/Sumit_DEV/tree/master/0144-binary-tree-preorder-traversal) |
 | [1120-flower-planting-with-no-adjacent](https://github.com/yogisumit97/Sumit_DEV/tree/master/1120-flower-planting-with-no-adjacent) |
 ## Enumeration
 |  |
@@ -470,6 +472,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Tree
 |  |
 | ------- |
+| [0144-binary-tree-preorder-traversal](https://github.com/yogisumit97/Sumit_DEV/tree/master/0144-binary-tree-preorder-traversal) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/yogisumit97/Sumit_DEV/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Binary Search Tree
 |  |
@@ -478,5 +481,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Tree
 |  |
 | ------- |
+| [0144-binary-tree-preorder-traversal](https://github.com/yogisumit97/Sumit_DEV/tree/master/0144-binary-tree-preorder-traversal) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/yogisumit97/Sumit_DEV/tree/master/0789-kth-largest-element-in-a-stream) |
 <!---LeetCode Topics End-->
