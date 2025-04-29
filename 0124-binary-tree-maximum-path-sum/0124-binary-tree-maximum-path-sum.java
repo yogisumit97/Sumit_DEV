@@ -28,21 +28,18 @@ class Solution {
         int rh = maxSumFinder(root.right);
         if(lh ==0 && rh ==0){
             max = root.val;
-            maxSum = Math.max(maxSum, max);
         }
         else if(lh ==0){ // discard left half
             max = Math.max(root.val, rh+root.val);
-            maxSum = Math.max(maxSum, max );
         }
         else if(rh ==0){
             max = Math.max(root.val, lh+root.val);
-            maxSum = Math.max(maxSum, max );
         }
         else{
-            max = Math.max(root.val, Math.max(lh+root.val, rh+root.val));
-            int temp = Math.max(lh+rh+root.val, max);
-            maxSum = Math.max(maxSum, temp);
+            max = Math.max(Math.max(lh+rh+root.val, root.val), Math.max(lh+root.val, rh+root.val));
         }
+        maxSum = Math.max(maxSum, max );
+        if(lh!=0 && rh!=0) max =  Math.max(root.val, Math.max(lh+root.val, rh+root.val));
         return max;
     }
 }
