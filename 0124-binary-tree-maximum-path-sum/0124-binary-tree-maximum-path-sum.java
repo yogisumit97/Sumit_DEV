@@ -26,15 +26,9 @@ class Solution {
         int max = 0;
         int lh = maxSumFinder(root.left);
         int rh = maxSumFinder(root.right);
-        if(lh ==0 && rh ==0){
-            max = root.val;
-        }
-        else if(lh ==0){ // discard left half
-            max = Math.max(root.val, rh+root.val);
-        }
-        else if(rh ==0){
-            max = Math.max(root.val, lh+root.val);
-        }
+        if(lh ==0 && rh ==0)    max = root.val;
+        else if(lh ==0) max = Math.max(root.val, rh+root.val);
+        else if(rh ==0) max = Math.max(root.val, lh+root.val);
         else{
             max = Math.max(Math.max(lh+rh+root.val, root.val), Math.max(lh+root.val, rh+root.val));
         }
