@@ -23,9 +23,9 @@ class Solution {
     }
     public int maxSumFinder(TreeNode root){
         if(root== null) return 0;
-        int leftSum = maxSumFinder(root.left);
-        int rightSum = maxSumFinder(root.right);
-        maxSum = Math.max(maxSum, Math.max(Math.max(leftSum+rightSum+root.val, root.val), Math.max(root.val+leftSum, root.val+rightSum)));
-        return Math.max(root.val, root.val+ Math.max(leftSum, rightSum));
+        int leftSum = Math.max(0, maxSumFinder(root.left)); // if less than 0 dont take this path
+        int rightSum = Math.max(0, maxSumFinder(root.right));
+        maxSum = Math.max(maxSum, leftSum+rightSum+root.val);
+        return root.val+ Math.max(leftSum, rightSum); // discard if less than 0
     }
 }
