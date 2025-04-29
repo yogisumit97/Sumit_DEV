@@ -20,7 +20,6 @@ class Solution {
         if(root == null) return result;
         TreeNode curr = root;
         while(curr!=null || !stack.empty()){
-            // keep going left
             if(curr!=null){
                 stack.push(curr);
                 curr = curr.left;
