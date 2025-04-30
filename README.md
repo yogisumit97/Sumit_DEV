@@ -89,6 +89,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0797-rabbits-in-forest](https://github.com/yogisumit97/Sumit_DEV/tree/master/0797-rabbits-in-forest) |
 | [0940-fruit-into-baskets](https://github.com/yogisumit97/Sumit_DEV/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0966-binary-subarrays-with-sum) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/yogisumit97/Sumit_DEV/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1034-subarrays-with-k-different-integers](https://github.com/yogisumit97/Sumit_DEV/tree/master/1034-subarrays-with-k-different-integers) |
 | [1370-count-number-of-nice-subarrays](https://github.com/yogisumit97/Sumit_DEV/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/yogisumit97/Sumit_DEV/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -249,6 +250,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0414-third-maximum-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/0414-third-maximum-number) |
 | [0451-sort-characters-by-frequency](https://github.com/yogisumit97/Sumit_DEV/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/yogisumit97/Sumit_DEV/tree/master/0455-assign-cookies) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/yogisumit97/Sumit_DEV/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Stack
 |  |
 | ------- |
@@ -401,6 +403,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0144-binary-tree-preorder-traversal](https://github.com/yogisumit97/Sumit_DEV/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/yogisumit97/Sumit_DEV/tree/master/0145-binary-tree-postorder-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/yogisumit97/Sumit_DEV/tree/master/0543-diameter-of-binary-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/yogisumit97/Sumit_DEV/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1120-flower-planting-with-no-adjacent](https://github.com/yogisumit97/Sumit_DEV/tree/master/1120-flower-planting-with-no-adjacent) |
 ## Enumeration
 |  |
@@ -414,6 +417,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0102-binary-tree-level-order-traversal](https://github.com/yogisumit97/Sumit_DEV/tree/master/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/yogisumit97/Sumit_DEV/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/yogisumit97/Sumit_DEV/tree/master/0104-maximum-depth-of-binary-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/yogisumit97/Sumit_DEV/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1120-flower-planting-with-no-adjacent](https://github.com/yogisumit97/Sumit_DEV/tree/master/1120-flower-planting-with-no-adjacent) |
 ## Graph
 |  |
@@ -497,6 +501,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0145-binary-tree-postorder-traversal](https://github.com/yogisumit97/Sumit_DEV/tree/master/0145-binary-tree-postorder-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/yogisumit97/Sumit_DEV/tree/master/0543-diameter-of-binary-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/yogisumit97/Sumit_DEV/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/yogisumit97/Sumit_DEV/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -515,4 +520,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0145-binary-tree-postorder-traversal](https://github.com/yogisumit97/Sumit_DEV/tree/master/0145-binary-tree-postorder-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/yogisumit97/Sumit_DEV/tree/master/0543-diameter-of-binary-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/yogisumit97/Sumit_DEV/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/yogisumit97/Sumit_DEV/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 <!---LeetCode Topics End-->
