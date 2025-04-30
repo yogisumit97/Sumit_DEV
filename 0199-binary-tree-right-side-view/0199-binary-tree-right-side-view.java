@@ -15,7 +15,7 @@
  */
 import java.util.*;
 class Solution {
-    private class Pair{
+    public class Pair{
         TreeNode curr;
         int row;
         Pair(TreeNode curr, int row){
@@ -41,9 +41,11 @@ class Solution {
             int size = queue.size();
             while(size>0){
                 Pair pair = queue.poll(); // row is pair.row and node is pair.curr
-                rowMap.put(pair.row, pair.curr.val);
-                if(pair.curr.left!=null) queue.offer(new Pair(pair.curr.left, pair.row+1));
-                if(pair.curr.right!=null) queue.offer(new Pair(pair.curr.right, pair.row+1));
+                int currRow = pair.row;
+                TreeNode curr = pair.curr;
+                rowMap.put(currRow, pair.curr.val);
+                if(curr.left!=null) queue.offer(new Pair(curr.left, currRow+1));
+                if(curr.right!=null) queue.offer(new Pair(curr.right, currRow+1));
                 size--;
             }
         }
