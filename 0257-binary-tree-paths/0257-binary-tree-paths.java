@@ -15,20 +15,33 @@
  */
 class Solution {
     public List<String> binaryTreePaths(TreeNode root) {
-        List<String> list = new ArrayList<>();
-        if(root==null) return list;
-        pathFinder(root, list, "");
-        return list;
-    }
-    private void pathFinder(TreeNode root, List<String> list, String sb){
-        if(root.left ==null && root.right==null){
-            sb+= sb.length()>0 ? "->"+root.val : ""+root.val ;
-            list.add(sb);
-            return;
+        List<String> result = new ArrayList<>();
+        if(root==null) return result;
+        List<List<Integer>> list = new ArrayList<>();
+        pathFinder(root, new ArrayList<>(),list);
+        for(List<Integer> path : list) {
+            StringBuilder sb = new StringBuilder();
+            for(int i = 0; i < path.size(); i++) {
+                if(i != 0) sb.append("->");
+                sb.append(path.get(i));
+            }
+            result.add(sb.toString());
         }
-        if(sb.length()==0) sb+=""+root.val;
-        else sb+="->"+root.val;
-        if(root.left!=null) pathFinder(root.left, list, sb);
-        if(root.right!=null) pathFinder(root.right, list, sb);
+        return result;
+    }
+    private void pathFinder(TreeNode root, ArrayList<Integer> path, List<List<Integer>> list){
+        if(root == null) return;
+        path.add(root.val);
+
+        if(root.left==null && root.right== null){
+            list.add(new ArrayList<>(path));
+            System.out.println(list);
+            //path.remove(path.size()-1);
+        }
+        else{
+            pathFinder(root.left, path, list);
+            pathFinder(root.right, path, list);
+        }
+        path.remove(path.size()-1);
     }
 }
