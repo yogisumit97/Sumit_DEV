@@ -20,7 +20,6 @@ class Solution {
         if(root==null) return list;
         SortedMap<Integer, Integer> rowMap = new TreeMap<>();
         traverseTreeLevelWise(root, rowMap);
-        //System.out.println(columnMap);
         for(int value : rowMap.values()){
             list.add(value);
         }
@@ -41,7 +40,6 @@ class Solution {
             }
             row++;
         }
-        //System.out.println(column+" "+root.data);
     }
 }
 
