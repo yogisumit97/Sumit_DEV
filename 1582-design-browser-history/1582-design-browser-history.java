@@ -1,29 +1,27 @@
 class BrowserHistory {
-    Stack<String> urlList1;
-    Stack<String> urlList2;
+    List<String> list;
+    int curr;
     public BrowserHistory(String homepage) {
-        urlList1 = new Stack<>();
-        urlList1.push(homepage);
-        urlList2 = new Stack<>();
+        list = new ArrayList<>();
+        list.add(homepage);
+        curr = 0; // for homepage
     }
     public void visit(String url) {
-        urlList1.push(url);
-        urlList2.clear(); // clearing forward History    
+        int count = list.size()-1;
+        while(count>curr){
+            list.remove(count); 
+            count--;
+        }
+        list.add(curr+1,url);
+        curr = curr+1;
     }   
     public String back(int steps) {
-        while(steps!=0 && !urlList1.empty()){
-            if(urlList1.size()==1) break;
-            urlList2.push(urlList1.pop());
-            steps--;
-        }
-        return urlList1.peek();    
+        curr = Math.max(0, curr-steps);
+        return list.get(curr);    
     }
     public String forward(int steps) {
-        while(steps!=0 && !urlList2.empty()){
-            urlList1.push(urlList2.pop());
-            steps--;
-        }
-        return urlList1.peek();
+        curr = Math.min(list.size()-1, curr+steps);
+        return list.get(curr);
     }
 }
 
