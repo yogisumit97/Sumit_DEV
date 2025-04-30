@@ -57,6 +57,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/yogisumit97/Sumit_DEV/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/yogisumit97/Sumit_DEV/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1582-design-browser-history](https://github.com/yogisumit97/Sumit_DEV/tree/master/1582-design-browser-history) |
 | [1603-running-sum-of-1d-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/1603-running-sum-of-1d-array) |
 | [1656-count-good-triplets](https://github.com/yogisumit97/Sumit_DEV/tree/master/1656-count-good-triplets) |
 | [2047-find-a-peak-element-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/2047-find-a-peak-element-ii) |
@@ -277,6 +278,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0937-online-stock-span](https://github.com/yogisumit97/Sumit_DEV/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/yogisumit97/Sumit_DEV/tree/master/0943-sum-of-subarray-minimums) |
 | [1078-remove-outermost-parentheses](https://github.com/yogisumit97/Sumit_DEV/tree/master/1078-remove-outermost-parentheses) |
+| [1582-design-browser-history](https://github.com/yogisumit97/Sumit_DEV/tree/master/1582-design-browser-history) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/yogisumit97/Sumit_DEV/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [2227-sum-of-subarray-ranges](https://github.com/yogisumit97/Sumit_DEV/tree/master/2227-sum-of-subarray-ranges) |
 ## Divide and Conquer
@@ -315,6 +317,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0237-delete-node-in-a-linked-list](https://github.com/yogisumit97/Sumit_DEV/tree/master/0237-delete-node-in-a-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/yogisumit97/Sumit_DEV/tree/master/0328-odd-even-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/yogisumit97/Sumit_DEV/tree/master/0908-middle-of-the-linked-list) |
+| [1582-design-browser-history](https://github.com/yogisumit97/Sumit_DEV/tree/master/1582-design-browser-history) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/yogisumit97/Sumit_DEV/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Heap (Priority Queue)
 |  |
@@ -450,6 +453,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0789-kth-largest-element-in-a-stream](https://github.com/yogisumit97/Sumit_DEV/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0937-online-stock-span](https://github.com/yogisumit97/Sumit_DEV/tree/master/0937-online-stock-span) |
 | [1512-design-underground-system](https://github.com/yogisumit97/Sumit_DEV/tree/master/1512-design-underground-system) |
+| [1582-design-browser-history](https://github.com/yogisumit97/Sumit_DEV/tree/master/1582-design-browser-history) |
 | [1708-design-parking-system](https://github.com/yogisumit97/Sumit_DEV/tree/master/1708-design-parking-system) |
 ## Queue
 |  |
@@ -494,10 +498,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/yogisumit97/Sumit_DEV/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0937-online-stock-span](https://github.com/yogisumit97/Sumit_DEV/tree/master/0937-online-stock-span) |
+| [1582-design-browser-history](https://github.com/yogisumit97/Sumit_DEV/tree/master/1582-design-browser-history) |
 ## Doubly-Linked List
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/yogisumit97/Sumit_DEV/tree/master/0146-lru-cache) |
+| [1582-design-browser-history](https://github.com/yogisumit97/Sumit_DEV/tree/master/1582-design-browser-history) |
 ## Quickselect
 |  |
 | ------- |
