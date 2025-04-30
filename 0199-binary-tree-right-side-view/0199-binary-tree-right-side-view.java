@@ -15,14 +15,6 @@
  */
 import java.util.*;
 class Solution {
-    public class Pair{
-        TreeNode curr;
-        int row;
-        Pair(TreeNode curr, int row){
-            this.curr = curr;
-            this.row = row;
-        }
-    }
     public List<Integer> rightSideView(TreeNode root) {
         List<Integer> list = new ArrayList<>();
         if(root==null) return list;
@@ -35,19 +27,19 @@ class Solution {
         return list;
     }
     private void traverseTreeLevelWise(TreeNode root, SortedMap<Integer,Integer> rowMap){
-        Queue<Pair> queue = new LinkedList<>();
-        queue.offer(new Pair(root,0));
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+        int row = 0;
         while(queue.size()>0){
             int size = queue.size();
             while(size>0){
-                Pair pair = queue.poll(); // row is pair.row and node is pair.curr
-                int currRow = pair.row;
-                TreeNode curr = pair.curr;
-                rowMap.put(currRow, pair.curr.val);
-                if(curr.left!=null) queue.offer(new Pair(curr.left, currRow+1));
-                if(curr.right!=null) queue.offer(new Pair(curr.right, currRow+1));
+                TreeNode curr = queue.poll();
+                rowMap.put(row, curr.val);
+                if(curr.left!=null) queue.offer(curr.left);
+                if(curr.right!=null) queue.offer(curr.right);
                 size--;
             }
+            row++;
         }
         //System.out.println(column+" "+root.data);
     }
