@@ -41,6 +41,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0238-product-of-array-except-self](https://github.com/yogisumit97/Sumit_DEV/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0239-sliding-window-maximum) |
 | [0260-single-number-iii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0260-single-number-iii) |
+| [0274-h-index](https://github.com/yogisumit97/Sumit_DEV/tree/master/0274-h-index) |
 | [0410-split-array-largest-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0410-split-array-largest-sum) |
 | [0414-third-maximum-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/0414-third-maximum-number) |
 | [0455-assign-cookies](https://github.com/yogisumit97/Sumit_DEV/tree/master/0455-assign-cookies) |
@@ -255,6 +256,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/yogisumit97/Sumit_DEV/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/0215-kth-largest-element-in-an-array) |
 | [0242-valid-anagram](https://github.com/yogisumit97/Sumit_DEV/tree/master/0242-valid-anagram) |
+| [0274-h-index](https://github.com/yogisumit97/Sumit_DEV/tree/master/0274-h-index) |
 | [0414-third-maximum-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/0414-third-maximum-number) |
 | [0451-sort-characters-by-frequency](https://github.com/yogisumit97/Sumit_DEV/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/yogisumit97/Sumit_DEV/tree/master/0455-assign-cookies) |
@@ -550,4 +552,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0543-diameter-of-binary-tree](https://github.com/yogisumit97/Sumit_DEV/tree/master/0543-diameter-of-binary-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/yogisumit97/Sumit_DEV/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/yogisumit97/Sumit_DEV/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+## Counting Sort
+|  |
+| ------- |
+| [0274-h-index](https://github.com/yogisumit97/Sumit_DEV/tree/master/0274-h-index) |
 <!---LeetCode Topics End-->
