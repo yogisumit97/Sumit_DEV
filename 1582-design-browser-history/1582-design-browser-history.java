@@ -12,20 +12,15 @@ class BrowserHistory {
     }   
     public String back(int steps) {
         while(steps!=0 && !urlList1.empty()){
-            String pop =urlList1.pop();
-            if(!urlList1.empty()) urlList2.push(pop);
-            else{
-                urlList1.push(pop);
-                break;
-            }
+            if(urlList1.size()==1) break;
+            urlList2.push(urlList1.pop());
             steps--;
         }
         return urlList1.peek();    
     }
     public String forward(int steps) {
         while(steps!=0 && !urlList2.empty()){
-            String pop =urlList2.pop();
-            urlList1.push(pop);
+            urlList1.push(urlList2.pop());
             steps--;
         }
         return urlList1.peek();
