@@ -24,13 +24,9 @@ class Solution {
             Collections.sort(multilist, new Comparator<List<Integer>>() {
                 @Override
                 public int compare(List<Integer> list1, List<Integer> list2) {
-                    // Compare the first elements
-                    int compareFirst = list1.get(0).compareTo(list2.get(0));
-                    if (compareFirst != 0) {
-                        return compareFirst; // If different, sort by the first element
-                    } else {
-                        return list1.get(1).compareTo(list2.get(1)); // If the same, sort by the second element
-                    }
+                    int compareFirst = list1.get(0).compareTo(list2.get(0)); // Compare the first elements
+                    if (compareFirst != 0)  return compareFirst; // If different, sort by the first element
+                    else    return list1.get(1).compareTo(list2.get(1)); // If the same, sort by the second element
                 }
             });
             List<Integer> l = new ArrayList<>();
