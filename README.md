@@ -192,6 +192,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0171-excel-sheet-column-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/0171-excel-sheet-column-number) |
 | [0205-isomorphic-strings](https://github.com/yogisumit97/Sumit_DEV/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/yogisumit97/Sumit_DEV/tree/master/0242-valid-anagram) |
+| [0257-binary-tree-paths](https://github.com/yogisumit97/Sumit_DEV/tree/master/0257-binary-tree-paths) |
 | [0282-expression-add-operators](https://github.com/yogisumit97/Sumit_DEV/tree/master/0282-expression-add-operators) |
 | [0344-reverse-string](https://github.com/yogisumit97/Sumit_DEV/tree/master/0344-reverse-string) |
 | [0402-remove-k-digits](https://github.com/yogisumit97/Sumit_DEV/tree/master/0402-remove-k-digits) |
@@ -392,6 +393,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0090-subsets-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/yogisumit97/Sumit_DEV/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0216-combination-sum-iii) |
+| [0257-binary-tree-paths](https://github.com/yogisumit97/Sumit_DEV/tree/master/0257-binary-tree-paths) |
 | [0282-expression-add-operators](https://github.com/yogisumit97/Sumit_DEV/tree/master/0282-expression-add-operators) |
 ## Depth-First Search
 |  |
@@ -406,6 +408,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0144-binary-tree-preorder-traversal](https://github.com/yogisumit97/Sumit_DEV/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/yogisumit97/Sumit_DEV/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/yogisumit97/Sumit_DEV/tree/master/0199-binary-tree-right-side-view) |
+| [0257-binary-tree-paths](https://github.com/yogisumit97/Sumit_DEV/tree/master/0257-binary-tree-paths) |
 | [0543-diameter-of-binary-tree](https://github.com/yogisumit97/Sumit_DEV/tree/master/0543-diameter-of-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/yogisumit97/Sumit_DEV/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1120-flower-planting-with-no-adjacent](https://github.com/yogisumit97/Sumit_DEV/tree/master/1120-flower-planting-with-no-adjacent) |
@@ -507,6 +510,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0144-binary-tree-preorder-traversal](https://github.com/yogisumit97/Sumit_DEV/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/yogisumit97/Sumit_DEV/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/yogisumit97/Sumit_DEV/tree/master/0199-binary-tree-right-side-view) |
+| [0257-binary-tree-paths](https://github.com/yogisumit97/Sumit_DEV/tree/master/0257-binary-tree-paths) |
 | [0543-diameter-of-binary-tree](https://github.com/yogisumit97/Sumit_DEV/tree/master/0543-diameter-of-binary-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/yogisumit97/Sumit_DEV/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/yogisumit97/Sumit_DEV/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -528,6 +532,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0144-binary-tree-preorder-traversal](https://github.com/yogisumit97/Sumit_DEV/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/yogisumit97/Sumit_DEV/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/yogisumit97/Sumit_DEV/tree/master/0199-binary-tree-right-side-view) |
+| [0257-binary-tree-paths](https://github.com/yogisumit97/Sumit_DEV/tree/master/0257-binary-tree-paths) |
 | [0543-diameter-of-binary-tree](https://github.com/yogisumit97/Sumit_DEV/tree/master/0543-diameter-of-binary-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/yogisumit97/Sumit_DEV/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/yogisumit97/Sumit_DEV/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
