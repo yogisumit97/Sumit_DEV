@@ -1,0 +1,55 @@
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+import java.util.*;
+class Solution {
+    private class Pair{
+        TreeNode curr;
+        int row;
+        Pair(TreeNode curr, int row){
+            this.curr = curr;
+            this.row = row;
+        }
+    }
+    public List<Integer> rightSideView(TreeNode root) {
+        List<Integer> list = new ArrayList<>();
+        if(root==null) return list;
+        SortedMap<Integer, Integer> rowMap = new TreeMap<>();
+        traverseTreeLevelWise(root, rowMap);
+        //System.out.println(columnMap);
+        for(int value : rowMap.values()){
+            list.add(value);
+        }
+        return list;
+    }
+    private void traverseTreeLevelWise(TreeNode root, SortedMap<Integer,Integer> rowMap){
+        Queue<Pair> queue = new LinkedList<>();
+        queue.offer(new Pair(root,0));
+        while(queue.size()>0){
+            int size = queue.size();
+            while(size>0){
+                Pair pair = queue.poll(); // row is pair.row and node is pair.curr
+                rowMap.put(pair.row, pair.curr.val);
+                if(pair.curr.left!=null) queue.offer(new Pair(pair.curr.left, pair.row+1));
+                if(pair.curr.right!=null) queue.offer(new Pair(pair.curr.right, pair.row+1));
+                size--;
+            }
+        }
+        //System.out.println(column+" "+root.data);
+    }
+}
+
+
+    
