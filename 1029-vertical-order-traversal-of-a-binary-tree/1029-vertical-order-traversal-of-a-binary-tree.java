@@ -40,17 +40,14 @@ class Solution {
     }
     public void traverseTree(int row, int column, TreeNode root, SortedMap<Integer,List<List<Integer>>> columnMap){
         if(root== null) return;
+        List<Integer> l = new ArrayList<>();
+        l.add(row);
+        l.add(root.val);    
         if(columnMap.containsKey(column)){
-            List<Integer> list = new ArrayList<>();
-            list.add(row);
-            list.add(root.val);
-            columnMap.get(column).add(list);
+            columnMap.get(column).add(l);
         } 
         else{
             List<List<Integer>> list = new ArrayList<>();
-            List<Integer> l = new ArrayList<>();
-            l.add(row);
-            l.add(root.val);
             list.add(l);
             columnMap.put(column, list);
         }
