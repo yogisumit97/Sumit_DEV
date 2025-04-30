@@ -95,6 +95,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1370-count-number-of-nice-subarrays](https://github.com/yogisumit97/Sumit_DEV/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/yogisumit97/Sumit_DEV/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/1510-find-lucky-integer-in-an-array) |
+| [1512-design-underground-system](https://github.com/yogisumit97/Sumit_DEV/tree/master/1512-design-underground-system) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/yogisumit97/Sumit_DEV/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/2856-count-complete-subarrays-in-an-array) |
 ## Binary Search
@@ -203,6 +204,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1078-remove-outermost-parentheses](https://github.com/yogisumit97/Sumit_DEV/tree/master/1078-remove-outermost-parentheses) |
 | [1205-defanging-an-ip-address](https://github.com/yogisumit97/Sumit_DEV/tree/master/1205-defanging-an-ip-address) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/yogisumit97/Sumit_DEV/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1512-design-underground-system](https://github.com/yogisumit97/Sumit_DEV/tree/master/1512-design-underground-system) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/yogisumit97/Sumit_DEV/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/yogisumit97/Sumit_DEV/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2032-largest-odd-number-in-string](https://github.com/yogisumit97/Sumit_DEV/tree/master/2032-largest-odd-number-in-string) |
@@ -447,6 +449,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0232-implement-queue-using-stacks](https://github.com/yogisumit97/Sumit_DEV/tree/master/0232-implement-queue-using-stacks) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/yogisumit97/Sumit_DEV/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0937-online-stock-span](https://github.com/yogisumit97/Sumit_DEV/tree/master/0937-online-stock-span) |
+| [1512-design-underground-system](https://github.com/yogisumit97/Sumit_DEV/tree/master/1512-design-underground-system) |
 | [1708-design-parking-system](https://github.com/yogisumit97/Sumit_DEV/tree/master/1708-design-parking-system) |
 ## Queue
 |  |
