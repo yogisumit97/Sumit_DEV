@@ -18,28 +18,14 @@ class Solution {
     public List<Integer> rightSideView(TreeNode root) {
         List<Integer> list = new ArrayList<>();
         if(root==null) return list;
-        SortedMap<Integer, Integer> rowMap = new TreeMap<>();
-        traverseTreeLevelWise(root, rowMap);
-        for(int value : rowMap.values()){
-            list.add(value);
-        }
+        traverseTreeLevelWise(root,0, list);
         return list;
     }
-    private void traverseTreeLevelWise(TreeNode root, SortedMap<Integer,Integer> rowMap){
-        Queue<TreeNode> queue = new LinkedList<>();
-        queue.offer(root);
-        int row = 0;
-        while(queue.size()>0){
-            int size = queue.size();
-            while(size>0){
-                TreeNode curr = queue.poll();
-                rowMap.put(row, curr.val);
-                if(curr.left!=null) queue.offer(curr.left);
-                if(curr.right!=null) queue.offer(curr.right);
-                size--;
-            }
-            row++;
-        }
+    private void traverseTreeLevelWise(TreeNode root, int level, List<Integer> list){
+        if(root==null) return;  // reverse preorder traversal >> root right left
+        if(level==list.size()) list.add(root.val);
+        traverseTreeLevelWise(root.right, level+1, list);
+        traverseTreeLevelWise(root.left, level+1, list);
     }
 }
 
