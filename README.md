@@ -107,6 +107,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0004-median-of-two-sorted-arrays](https://github.com/yogisumit97/Sumit_DEV/tree/master/0004-median-of-two-sorted-arrays) |
 | [0069-sqrtx](https://github.com/yogisumit97/Sumit_DEV/tree/master/0069-sqrtx) |
 | [0074-search-a-2d-matrix](https://github.com/yogisumit97/Sumit_DEV/tree/master/0074-search-a-2d-matrix) |
+| [0222-count-complete-tree-nodes](https://github.com/yogisumit97/Sumit_DEV/tree/master/0222-count-complete-tree-nodes) |
 | [0410-split-array-largest-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0410-split-array-largest-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/yogisumit97/Sumit_DEV/tree/master/1046-max-consecutive-ones-iii) |
 | [2047-find-a-peak-element-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/2047-find-a-peak-element-ii) |
@@ -375,6 +376,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0029-divide-two-integers](https://github.com/yogisumit97/Sumit_DEV/tree/master/0029-divide-two-integers) |
 | [0078-subsets](https://github.com/yogisumit97/Sumit_DEV/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0090-subsets-ii) |
+| [0222-count-complete-tree-nodes](https://github.com/yogisumit97/Sumit_DEV/tree/master/0222-count-complete-tree-nodes) |
 | [0231-power-of-two](https://github.com/yogisumit97/Sumit_DEV/tree/master/0231-power-of-two) |
 | [0260-single-number-iii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0260-single-number-iii) |
 | [0342-power-of-four](https://github.com/yogisumit97/Sumit_DEV/tree/master/0342-power-of-four) |
@@ -530,6 +532,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0144-binary-tree-preorder-traversal](https://github.com/yogisumit97/Sumit_DEV/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/yogisumit97/Sumit_DEV/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/yogisumit97/Sumit_DEV/tree/master/0199-binary-tree-right-side-view) |
+| [0222-count-complete-tree-nodes](https://github.com/yogisumit97/Sumit_DEV/tree/master/0222-count-complete-tree-nodes) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/yogisumit97/Sumit_DEV/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/yogisumit97/Sumit_DEV/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/yogisumit97/Sumit_DEV/tree/master/0257-binary-tree-paths) |
@@ -556,6 +559,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0144-binary-tree-preorder-traversal](https://github.com/yogisumit97/Sumit_DEV/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/yogisumit97/Sumit_DEV/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/yogisumit97/Sumit_DEV/tree/master/0199-binary-tree-right-side-view) |
+| [0222-count-complete-tree-nodes](https://github.com/yogisumit97/Sumit_DEV/tree/master/0222-count-complete-tree-nodes) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/yogisumit97/Sumit_DEV/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/yogisumit97/Sumit_DEV/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/yogisumit97/Sumit_DEV/tree/master/0257-binary-tree-paths) |
