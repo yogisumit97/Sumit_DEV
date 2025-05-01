@@ -13,14 +13,14 @@ class Solution {
         List<TreeNode> pPath  = new ArrayList<>();
         List<TreeNode> qPath  = new ArrayList<>();
         traverseTree(root, p, q, pPath, qPath, new int[]{1,1});
-        int count = 1;
-        TreeNode ans = root;
-        while(count< pPath.size() && count< qPath.size()){
-            if(pPath.get(count)!= qPath.get(count)) break;
-            else ans = pPath.get(count);
-            count++;
+        int left = 0;
+        int right = Math.min(pPath.size(), qPath.size()) -1;
+        while(left<=right){
+            int mid = (left+right) /2;
+            if(pPath.get(mid)== qPath.get(mid)) left=mid+1;
+            else right = mid-1;
         }
-        return ans;
+        return pPath.get(right);
     }
     public void traverseTree(TreeNode root,TreeNode p,TreeNode q, List<TreeNode> pPath,List<TreeNode> qPath, int[] pcAndQc){
         if((pcAndQc[0]|pcAndQc[1]) ==0) return;
