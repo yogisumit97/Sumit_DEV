@@ -23,6 +23,7 @@ class Solution {
         return ans;
     }
     public void traverseTree(TreeNode root,TreeNode p,TreeNode q, List<TreeNode> pPath,List<TreeNode> qPath, int[] pcAndQc){
+        if((pcAndQc[0]|pcAndQc[1]) ==0) return;
         if(root==null) return;
         if(pcAndQc[0]==1){
             pPath.add(root);
@@ -32,11 +33,9 @@ class Solution {
             qPath.add(root);
             if(root==q) pcAndQc[1] = 0;
         }
-        if((pcAndQc[0]|pcAndQc[1]) ==0) return;
-        else{
-            traverseTree(root.left, p,q, pPath, qPath, pcAndQc);
-            traverseTree(root.right, p,q, pPath, qPath, pcAndQc);
-        }
+        traverseTree(root.left, p,q, pPath, qPath, pcAndQc);
+        traverseTree(root.right, p,q, pPath, qPath, pcAndQc);
+        
         if(pcAndQc[0]!=0) pPath.remove(pPath.size()-1);
         if(pcAndQc[1]!=0) qPath.remove(qPath.size()-1);
     }
