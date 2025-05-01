@@ -35,8 +35,6 @@ class Solution {
 
         if(root.left==null && root.right== null){
             list.add(new ArrayList<>(path));
-            System.out.println(list);
-            //path.remove(path.size()-1);
         }
         else{
             pathFinder(root.left, path, list);
