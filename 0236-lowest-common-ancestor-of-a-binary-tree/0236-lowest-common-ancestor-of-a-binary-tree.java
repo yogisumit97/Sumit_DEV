@@ -1,32 +1,21 @@
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
 class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        if(root==null) return root;
-        List<TreeNode> pPath  = new ArrayList<>();
-        List<TreeNode> qPath  = new ArrayList<>();
-        traverseTree(root, p, q, pPath, qPath, new int[]{1,1});
-        int left = 0;
-        int right = Math.min(pPath.size(), qPath.size()) -1;
-        while(left<=right){
-            int mid = (left+right) /2;
-            if(pPath.get(mid)== qPath.get(mid)) left=mid+1;
-            else right = mid-1;
-        }
-        return pPath.get(right);
-    }
-    public void traverseTree(TreeNode root,TreeNode p,TreeNode q, List<TreeNode> pPath,List<TreeNode> qPath, int[] pcAndQc){
-        if((pcAndQc[0]|pcAndQc[1]) ==0) return;
-        if(root==null) return;
-        if(pcAndQc[0]==1){
-            pPath.add(root);
-            if(root==p) pcAndQc[0] = 0;
-        }
-        if(pcAndQc[1]==1){
-            qPath.add(root);
-            if(root==q) pcAndQc[1] = 0;
-        }
-        traverseTree(root.left, p,q, pPath, qPath, pcAndQc);
-        traverseTree(root.right, p,q, pPath, qPath, pcAndQc);
-        if(pcAndQc[0]!=0) pPath.remove(pPath.size()-1);
-        if(pcAndQc[1]!=0) qPath.remove(qPath.size()-1);
+        if(root==null) return null;
+        if(root==p || root==q) return root;
+        TreeNode left = lowestCommonAncestor(root.left, p, q);
+        TreeNode right = lowestCommonAncestor(root.right, p, q);
+        if(left!=null && right!=null) return root;
+        else if(left == null && right ==null) return null;
+        else if(left!=null) return left;
+        else return right;
     }
 }
