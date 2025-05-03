@@ -15,7 +15,6 @@ public class Codec {
             queue.offer(curr.left);
             queue.offer(curr.right);
         }
-        System.out.println(sb);
         return sb.toString();
     }
     // Decodes your encoded data to tree.
