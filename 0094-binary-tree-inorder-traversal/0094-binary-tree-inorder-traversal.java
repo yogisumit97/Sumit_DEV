@@ -1,32 +1,26 @@
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
+// morris inorder traversal O(1) space and O(N) time >> recursion takes O(N) for both.
 class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> list = new ArrayList<>();
-        Stack<TreeNode> stack = new Stack<>();
-        if(root==null) return list;
         TreeNode curr = root;
-        while(curr!=null || !stack.empty()){
-            while(curr!=null){
-                stack.push(curr);
-                curr= curr.left;
+        while(curr!=null){
+            if(curr.left==null){
+                list.add(curr.val);
+                curr= curr.right;
             }
-            curr = stack.pop();
-            list.add(curr.val);
-            curr = curr.right;
+            else{
+                TreeNode prev = curr.left;
+                while(prev.right!=null && prev.right!=curr) prev = prev.right;
+                if(prev.right==null){ // create link
+                    prev.right = curr;
+                    curr = curr.left;
+                }
+                else{ // link already exists, so remove link now.
+                    prev.right = null;
+                    list.add(curr.val);
+                    curr = curr.right;
+                }
+            }
         }
         return list;
     }
