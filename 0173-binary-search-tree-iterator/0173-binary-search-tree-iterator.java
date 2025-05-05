@@ -1,24 +1,25 @@
 class BSTIterator {
-    int pointer;
-    List<Integer> list;
+    Stack<TreeNode> stack;
+    TreeNode temp;
     public BSTIterator(TreeNode root) {
-        list = new ArrayList<>();
-        pointer = -1;
-        inorder(root);
+        stack = new Stack<>();
+        pushAll(root);
+        temp = null;
     }
-    public void inorder(TreeNode root){
+    public void pushAll(TreeNode root){
         if(root==null) return;
-        inorder(root.left);
-        list.add(root.val);
-        inorder(root.right);
+        stack.push(root);
+        pushAll(root.left);
     }
     public int next() {
-        return list.get(++pointer);
+        temp = stack.pop();
+        if(temp.right!=null) pushAll(temp.right);
+        return temp.val;
     }
     
     public boolean hasNext() {
-        if(pointer < list.size()-1 && list.size()!=0) return true;
-        return false;
+        if(stack.empty()) return false;
+        return true;
     }
 }
 
