@@ -67,6 +67,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1603-running-sum-of-1d-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/1603-running-sum-of-1d-array) |
 | [1656-count-good-triplets](https://github.com/yogisumit97/Sumit_DEV/tree/master/1656-count-good-triplets) |
 | [2047-find-a-peak-element-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/2047-find-a-peak-element-ii) |
+| [2048-build-array-from-permutation](https://github.com/yogisumit97/Sumit_DEV/tree/master/2048-build-array-from-permutation) |
 | [2227-sum-of-subarray-ranges](https://github.com/yogisumit97/Sumit_DEV/tree/master/2227-sum-of-subarray-ranges) |
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/2856-count-complete-subarrays-in-an-array) |
@@ -406,6 +407,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0735-asteroid-collision](https://github.com/yogisumit97/Sumit_DEV/tree/master/0735-asteroid-collision) |
 | [1708-design-parking-system](https://github.com/yogisumit97/Sumit_DEV/tree/master/1708-design-parking-system) |
+| [2048-build-array-from-permutation](https://github.com/yogisumit97/Sumit_DEV/tree/master/2048-build-array-from-permutation) |
 | [3311-ant-on-the-boundary](https://github.com/yogisumit97/Sumit_DEV/tree/master/3311-ant-on-the-boundary) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/yogisumit97/Sumit_DEV/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Backtracking
