@@ -44,6 +44,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0239-sliding-window-maximum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0239-sliding-window-maximum) |
 | [0260-single-number-iii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0260-single-number-iii) |
 | [0274-h-index](https://github.com/yogisumit97/Sumit_DEV/tree/master/0274-h-index) |
+| [0283-move-zeroes](https://github.com/yogisumit97/Sumit_DEV/tree/master/0283-move-zeroes) |
 | [0410-split-array-largest-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0410-split-array-largest-sum) |
 | [0414-third-maximum-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/0414-third-maximum-number) |
 | [0455-assign-cookies](https://github.com/yogisumit97/Sumit_DEV/tree/master/0455-assign-cookies) |
@@ -187,6 +188,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0160-intersection-of-two-linked-lists](https://github.com/yogisumit97/Sumit_DEV/tree/master/0160-intersection-of-two-linked-lists) |
 | [0189-rotate-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/yogisumit97/Sumit_DEV/tree/master/0234-palindrome-linked-list) |
+| [0283-move-zeroes](https://github.com/yogisumit97/Sumit_DEV/tree/master/0283-move-zeroes) |
 | [0344-reverse-string](https://github.com/yogisumit97/Sumit_DEV/tree/master/0344-reverse-string) |
 | [0455-assign-cookies](https://github.com/yogisumit97/Sumit_DEV/tree/master/0455-assign-cookies) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/yogisumit97/Sumit_DEV/tree/master/0653-two-sum-iv-input-is-a-bst) |
