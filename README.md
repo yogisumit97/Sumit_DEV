@@ -33,6 +33,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/yogisumit97/Sumit_DEV/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0135-candy](https://github.com/yogisumit97/Sumit_DEV/tree/master/0135-candy) |
+| [0136-single-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/0136-single-number) |
 | [0139-word-break](https://github.com/yogisumit97/Sumit_DEV/tree/master/0139-word-break) |
 | [0169-majority-element](https://github.com/yogisumit97/Sumit_DEV/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/0189-rotate-array) |
@@ -407,6 +408,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0029-divide-two-integers](https://github.com/yogisumit97/Sumit_DEV/tree/master/0029-divide-two-integers) |
 | [0078-subsets](https://github.com/yogisumit97/Sumit_DEV/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0090-subsets-ii) |
+| [0136-single-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/0136-single-number) |
 | [0222-count-complete-tree-nodes](https://github.com/yogisumit97/Sumit_DEV/tree/master/0222-count-complete-tree-nodes) |
 | [0231-power-of-two](https://github.com/yogisumit97/Sumit_DEV/tree/master/0231-power-of-two) |
 | [0260-single-number-iii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0260-single-number-iii) |
