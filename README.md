@@ -68,6 +68,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1582-design-browser-history](https://github.com/yogisumit97/Sumit_DEV/tree/master/1582-design-browser-history) |
 | [1603-running-sum-of-1d-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/1603-running-sum-of-1d-array) |
 | [1656-count-good-triplets](https://github.com/yogisumit97/Sumit_DEV/tree/master/1656-count-good-triplets) |
+| [1878-check-if-array-is-sorted-and-rotated](https://github.com/yogisumit97/Sumit_DEV/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2047-find-a-peak-element-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/2047-find-a-peak-element-ii) |
 | [2048-build-array-from-permutation](https://github.com/yogisumit97/Sumit_DEV/tree/master/2048-build-array-from-permutation) |
 | [2227-sum-of-subarray-ranges](https://github.com/yogisumit97/Sumit_DEV/tree/master/2227-sum-of-subarray-ranges) |
