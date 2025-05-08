@@ -43,6 +43,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0238-product-of-array-except-self](https://github.com/yogisumit97/Sumit_DEV/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0239-sliding-window-maximum) |
 | [0260-single-number-iii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0260-single-number-iii) |
+| [0268-missing-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/0268-missing-number) |
 | [0274-h-index](https://github.com/yogisumit97/Sumit_DEV/tree/master/0274-h-index) |
 | [0283-move-zeroes](https://github.com/yogisumit97/Sumit_DEV/tree/master/0283-move-zeroes) |
 | [0410-split-array-largest-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0410-split-array-largest-sum) |
@@ -98,6 +99,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0205-isomorphic-strings](https://github.com/yogisumit97/Sumit_DEV/tree/master/0205-isomorphic-strings) |
 | [0219-contains-duplicate-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/yogisumit97/Sumit_DEV/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/0268-missing-number) |
 | [0424-longest-repeating-character-replacement](https://github.com/yogisumit97/Sumit_DEV/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/yogisumit97/Sumit_DEV/tree/master/0451-sort-characters-by-frequency) |
 | [0496-next-greater-element-i](https://github.com/yogisumit97/Sumit_DEV/tree/master/0496-next-greater-element-i) |
@@ -121,6 +123,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0069-sqrtx](https://github.com/yogisumit97/Sumit_DEV/tree/master/0069-sqrtx) |
 | [0074-search-a-2d-matrix](https://github.com/yogisumit97/Sumit_DEV/tree/master/0074-search-a-2d-matrix) |
 | [0222-count-complete-tree-nodes](https://github.com/yogisumit97/Sumit_DEV/tree/master/0222-count-complete-tree-nodes) |
+| [0268-missing-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/0268-missing-number) |
 | [0410-split-array-largest-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0410-split-array-largest-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/yogisumit97/Sumit_DEV/tree/master/1046-max-consecutive-ones-iii) |
 | [2047-find-a-peak-element-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/2047-find-a-peak-element-ii) |
@@ -244,6 +247,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0189-rotate-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/yogisumit97/Sumit_DEV/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/yogisumit97/Sumit_DEV/tree/master/0231-power-of-two) |
+| [0268-missing-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/0268-missing-number) |
 | [0282-expression-add-operators](https://github.com/yogisumit97/Sumit_DEV/tree/master/0282-expression-add-operators) |
 | [0326-power-of-three](https://github.com/yogisumit97/Sumit_DEV/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/yogisumit97/Sumit_DEV/tree/master/0342-power-of-four) |
@@ -274,6 +278,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/yogisumit97/Sumit_DEV/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/0215-kth-largest-element-in-an-array) |
 | [0242-valid-anagram](https://github.com/yogisumit97/Sumit_DEV/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/0268-missing-number) |
 | [0274-h-index](https://github.com/yogisumit97/Sumit_DEV/tree/master/0274-h-index) |
 | [0414-third-maximum-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/0414-third-maximum-number) |
 | [0451-sort-characters-by-frequency](https://github.com/yogisumit97/Sumit_DEV/tree/master/0451-sort-characters-by-frequency) |
@@ -404,6 +409,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0222-count-complete-tree-nodes](https://github.com/yogisumit97/Sumit_DEV/tree/master/0222-count-complete-tree-nodes) |
 | [0231-power-of-two](https://github.com/yogisumit97/Sumit_DEV/tree/master/0231-power-of-two) |
 | [0260-single-number-iii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0260-single-number-iii) |
+| [0268-missing-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/0268-missing-number) |
 | [0342-power-of-four](https://github.com/yogisumit97/Sumit_DEV/tree/master/0342-power-of-four) |
 | [0405-convert-a-number-to-hexadecimal](https://github.com/yogisumit97/Sumit_DEV/tree/master/0405-convert-a-number-to-hexadecimal) |
 | [1610-xor-operation-in-an-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/1610-xor-operation-in-an-array) |
