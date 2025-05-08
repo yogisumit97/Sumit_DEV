@@ -1,10 +1,12 @@
 class Solution {
     public int orangesRotting(int[][] grid) { // using BFS
         Queue<Pair<Integer,Integer>> q = new LinkedList<>();
+        int n = grid.length;
+        int m = grid[0].length;
         boolean rottenExists = false;
         boolean freshExists = false;
-        for(int i=0; i<grid.length; i++){
-            for(int j=0; j<grid[0].length; j++){ // put all rotten in queue initially.
+        for(int i=0; i<n; i++){
+            for(int j=0; j<m; j++){ // put all rotten in queue initially.
                 if(grid[i][j]==2){
                     q.offer(new Pair(i,j));
                     rottenExists = true;
@@ -25,7 +27,7 @@ class Solution {
                     grid[i][j-1] = 2; // mark rotten
                     q.offer(new Pair(i,j-1));
                 }
-                if(j+1 < grid[0].length && grid[i][j+1]==1){//right case
+                if(j+1 < m && grid[i][j+1]==1){//right case
                     grid[i][j+1] = 2; // mark rotten
                     q.offer(new Pair(i,j+1));
                 }
@@ -33,15 +35,15 @@ class Solution {
                     grid[i-1][j] = 2; // mark rotten
                     q.offer(new Pair(i-1,j));
                 }
-                if(i+1 < grid.length && grid[i+1][j]==1){// down case
+                if(i+1 < n && grid[i+1][j]==1){// down case
                     grid[i+1][j] = 2; // mark rotten
                     q.offer(new Pair(i+1,j));
                 }
             }
             maxTime++;
         }
-        for(int i=0; i<grid.length; i++){
-            for(int j=0; j<grid[0].length; j++){ // put all rotten in queue initially.
+        for(int i=0; i<n; i++){
+            for(int j=0; j<m; j++){ // put all rotten in queue initially.
                 if(grid[i][j]==1){
                     return -1;
                 }
