@@ -1,11 +1,9 @@
 class Solution {
     public int removeDuplicates(int[] nums) {
-        int count = 0;
-        int prev = -101;
-        for(int i =0; i<nums.length;i++){
-            if(nums[i]!=prev){
+        int count = 1; //first element is already unique. 
+        for(int i =1; i<nums.length;i++){
+            if(nums[i]!=nums[i-1]){
                 nums[count++]= nums[i];
-                prev = nums[i];
             }
         }
         return count;
