@@ -53,6 +53,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0485-max-consecutive-ones](https://github.com/yogisumit97/Sumit_DEV/tree/master/0485-max-consecutive-ones) |
 | [0496-next-greater-element-i](https://github.com/yogisumit97/Sumit_DEV/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0503-next-greater-element-ii) |
+| [0542-01-matrix](https://github.com/yogisumit97/Sumit_DEV/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/yogisumit97/Sumit_DEV/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/yogisumit97/Sumit_DEV/tree/master/0735-asteroid-collision) |
 | [0797-rabbits-in-forest](https://github.com/yogisumit97/Sumit_DEV/tree/master/0797-rabbits-in-forest) |
@@ -148,6 +149,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0131-palindrome-partitioning](https://github.com/yogisumit97/Sumit_DEV/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/yogisumit97/Sumit_DEV/tree/master/0139-word-break) |
 | [0410-split-array-largest-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0410-split-array-largest-sum) |
+| [0542-01-matrix](https://github.com/yogisumit97/Sumit_DEV/tree/master/0542-01-matrix) |
 | [0678-valid-parenthesis-string](https://github.com/yogisumit97/Sumit_DEV/tree/master/0678-valid-parenthesis-string) |
 | [0943-sum-of-subarray-minimums](https://github.com/yogisumit97/Sumit_DEV/tree/master/0943-sum-of-subarray-minimums) |
 | [1013-fibonacci-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/1013-fibonacci-number) |
@@ -331,6 +333,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0074-search-a-2d-matrix](https://github.com/yogisumit97/Sumit_DEV/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/yogisumit97/Sumit_DEV/tree/master/0079-word-search) |
 | [0085-maximal-rectangle](https://github.com/yogisumit97/Sumit_DEV/tree/master/0085-maximal-rectangle) |
+| [0542-01-matrix](https://github.com/yogisumit97/Sumit_DEV/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/yogisumit97/Sumit_DEV/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/yogisumit97/Sumit_DEV/tree/master/1036-rotting-oranges) |
 | [2047-find-a-peak-element-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/2047-find-a-peak-element-ii) |
@@ -488,6 +491,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0104-maximum-depth-of-binary-tree](https://github.com/yogisumit97/Sumit_DEV/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/yogisumit97/Sumit_DEV/tree/master/0199-binary-tree-right-side-view) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/yogisumit97/Sumit_DEV/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0542-01-matrix](https://github.com/yogisumit97/Sumit_DEV/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/yogisumit97/Sumit_DEV/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/yogisumit97/Sumit_DEV/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/yogisumit97/Sumit_DEV/tree/master/0662-maximum-width-of-binary-tree) |
