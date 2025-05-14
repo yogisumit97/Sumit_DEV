@@ -1,18 +1,8 @@
 class Solution {
-    int[] dp = new int[46];
+    public int[] dp = new int[46];
     public int climbStairs(int n) {
-        for(int i =1; i<=n; i++){
-            if(i==1 || i==2) dp[i]=i;
-            else dp[i]= dp[i-1]+dp[i-2];
-        }
-        return dp[n];
+        if(n<=3) return n;
+        if(dp[n]!=0) return dp[n];
+        return dp[n] = climbStairs(n-1)+climbStairs(n-2);        
     }
 }
-
-/*
-stairs 1 2 3 4 5 6
-output 1 2 3 5 8 13  
-
-op(n)= op(n-1)+op(n-2); // kind of fibonacci;
-as tle we need memoization
-*/
