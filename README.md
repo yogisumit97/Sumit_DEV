@@ -79,6 +79,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/yogisumit97/Sumit_DEV/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2047-find-a-peak-element-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/2047-find-a-peak-element-ii) |
 | [2048-build-array-from-permutation](https://github.com/yogisumit97/Sumit_DEV/tree/master/2048-build-array-from-permutation) |
+| [2215-finding-3-digit-even-numbers](https://github.com/yogisumit97/Sumit_DEV/tree/master/2215-finding-3-digit-even-numbers) |
 | [2227-sum-of-subarray-ranges](https://github.com/yogisumit97/Sumit_DEV/tree/master/2227-sum-of-subarray-ranges) |
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/2856-count-complete-subarrays-in-an-array) |
@@ -121,6 +122,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1510-find-lucky-integer-in-an-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1512-design-underground-system](https://github.com/yogisumit97/Sumit_DEV/tree/master/1512-design-underground-system) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/yogisumit97/Sumit_DEV/tree/master/1890-sum-of-beauty-of-all-substrings) |
+| [2215-finding-3-digit-even-numbers](https://github.com/yogisumit97/Sumit_DEV/tree/master/2215-finding-3-digit-even-numbers) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/2856-count-complete-subarrays-in-an-array) |
 ## Binary Search
 |  |
@@ -293,6 +295,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0451-sort-characters-by-frequency](https://github.com/yogisumit97/Sumit_DEV/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/yogisumit97/Sumit_DEV/tree/master/0455-assign-cookies) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/yogisumit97/Sumit_DEV/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [2215-finding-3-digit-even-numbers](https://github.com/yogisumit97/Sumit_DEV/tree/master/2215-finding-3-digit-even-numbers) |
 ## Stack
 |  |
 | ------- |
@@ -485,6 +488,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0204-count-primes](https://github.com/yogisumit97/Sumit_DEV/tree/master/0204-count-primes) |
 | [1656-count-good-triplets](https://github.com/yogisumit97/Sumit_DEV/tree/master/1656-count-good-triplets) |
+| [2215-finding-3-digit-even-numbers](https://github.com/yogisumit97/Sumit_DEV/tree/master/2215-finding-3-digit-even-numbers) |
 ## Breadth-First Search
 |  |
 | ------- |
