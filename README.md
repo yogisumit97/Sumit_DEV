@@ -143,6 +143,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/yogisumit97/Sumit_DEV/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/yogisumit97/Sumit_DEV/tree/master/0055-jump-game) |
+| [0062-unique-paths](https://github.com/yogisumit97/Sumit_DEV/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/yogisumit97/Sumit_DEV/tree/master/0070-climbing-stairs) |
 | [0085-maximal-rectangle](https://github.com/yogisumit97/Sumit_DEV/tree/master/0085-maximal-rectangle) |
 | [0118-pascals-triangle](https://github.com/yogisumit97/Sumit_DEV/tree/master/0118-pascals-triangle) |
@@ -251,6 +252,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0013-roman-to-integer](https://github.com/yogisumit97/Sumit_DEV/tree/master/0013-roman-to-integer) |
 | [0029-divide-two-integers](https://github.com/yogisumit97/Sumit_DEV/tree/master/0029-divide-two-integers) |
 | [0050-powx-n](https://github.com/yogisumit97/Sumit_DEV/tree/master/0050-powx-n) |
+| [0062-unique-paths](https://github.com/yogisumit97/Sumit_DEV/tree/master/0062-unique-paths) |
 | [0069-sqrtx](https://github.com/yogisumit97/Sumit_DEV/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/yogisumit97/Sumit_DEV/tree/master/0070-climbing-stairs) |
 | [0168-excel-sheet-column-title](https://github.com/yogisumit97/Sumit_DEV/tree/master/0168-excel-sheet-column-title) |
@@ -677,4 +679,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/yogisumit97/Sumit_DEV/tree/master/0547-number-of-provinces) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/yogisumit97/Sumit_DEV/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
