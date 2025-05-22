@@ -8,9 +8,9 @@ class Solution {
             for(int j=0; j<len; j++){
                 if(i==0) temp[j] = matrix[i][j];
                 else{
-                    int dl = j-1>=0 ? dp[j-1] : Integer.MAX_VALUE;
+                    int dl = j-1>=0 ? dp[j-1] : 10000;
                     int du = dp[j];
-                    int dr = j+1 < len ? dp[j+1] : Integer.MAX_VALUE;
+                    int dr = j+1 < len ? dp[j+1] : 10000;
                     temp[j] = matrix[i][j] + Math.min(dl, Math.min(du, dr));
                 }
             }
