@@ -1,16 +1,19 @@
 class Solution {
     public int minPathSum(int[][] grid) {
-        int[][] dp  = new int[grid.length][grid[0].length];
-        return pathSumHelper(grid, grid.length-1, grid[0].length-1, dp);
-    }
-    private int pathSumHelper(int[][] grid, int i, int j, int[][] dp){
-        if(i==0 && j==0){
-            return grid[i][j];
+        int n = grid.length;
+        int m = grid[0].length;
+        int[][] dp  = new int[n+1][m+1];
+        for(int i =n; i>=0; i--){
+            for(int j=m; j>=0; j--){
+                dp[i][j] = Integer.MAX_VALUE;
+            }
         }
-        if(i<0 || j<0) return 40000; // max value possible returned for invalid case.
-        if(dp[i][j] !=0) return dp[i][j];
-        int up = pathSumHelper(grid, i-1, j, dp);
-        int left = pathSumHelper(grid, i, j-1, dp);
-        return dp[i][j] = grid[i][j] + Math.min(up, left);
+        for(int i =n-1; i>=0; i--){
+            for(int j=m-1; j>=0; j--){
+                if(i==n-1 && j==m-1) dp[i][j] = grid[i][j];
+                else dp[i][j] = grid[i][j] + Math.min(dp[i+1][j], dp[i][j+1]);
+            }
+        }
+        return dp[0][0];
     }
 }
