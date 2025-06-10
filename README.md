@@ -130,6 +130,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/yogisumit97/Sumit_DEV/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2215-finding-3-digit-even-numbers](https://github.com/yogisumit97/Sumit_DEV/tree/master/2215-finding-3-digit-even-numbers) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/2856-count-complete-subarrays-in-an-array) |
+| [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/yogisumit97/Sumit_DEV/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 ## Binary Search
 |  |
 | ------- |
@@ -258,6 +259,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/yogisumit97/Sumit_DEV/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/yogisumit97/Sumit_DEV/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2032-largest-odd-number-in-string](https://github.com/yogisumit97/Sumit_DEV/tree/master/2032-largest-odd-number-in-string) |
+| [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/yogisumit97/Sumit_DEV/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 ## Math
 |  |
 | ------- |
@@ -409,6 +411,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1510-find-lucky-integer-in-an-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1708-design-parking-system](https://github.com/yogisumit97/Sumit_DEV/tree/master/1708-design-parking-system) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/yogisumit97/Sumit_DEV/tree/master/1890-sum-of-beauty-of-all-substrings) |
+| [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/yogisumit97/Sumit_DEV/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 ## Recursion
 |  |
 | ------- |
