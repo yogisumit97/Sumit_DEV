@@ -1,27 +1,16 @@
 class Solution {
-    public int myAtoi(String s) {
-        String temp = s.trim();
-        if(temp.length()==0) return 0;
-        int sign = 1;
-        if(temp.charAt(0)=='-'){
-            temp = temp.substring(1,temp.length());
-            sign = -1;
-        }
-        else if(temp.charAt(0)=='+') temp = temp.substring(1,temp.length());
-        return getNumber(temp,sign);
+    public int myAtoi(String input) {
+        String temp = input.strip();
+        if(temp==null || temp.length()<=0) return 0;
+        if(temp.charAt(0)=='+') return findInt(temp, 0, 1,1);
+        else if(temp.charAt(0)=='-') return findInt(temp, 0, 1, -1);
+        else return findInt(temp, 0, 0, 1);
     }
-    public int getNumber(String s, int sign){
-        int num = 0;
-        for(int i =0;i<s.length();i++){
-            if(!Character.isDigit(s.charAt(i))) break;
-            int digit = (s.charAt(i)-'0');
-            // Check for overflow
-            if (num > Integer.MAX_VALUE / 10 || 
-                (num == Integer.MAX_VALUE / 10 && digit > Integer.MAX_VALUE % 10)) {
-                return sign == 1 ? Integer.MAX_VALUE : Integer.MIN_VALUE;
-            }
-            num = num*10+ digit;
-        }
-        return sign*num;
+    private int findInt(String input, long result, int start, int sign){
+        if(start== input.length() || !Character.isDigit(input.charAt(start))) return (int)(result*sign);
+        result = result*10+Character.getNumericValue(input.charAt(start));
+        if(result*sign >= Integer.MAX_VALUE) return Integer.MAX_VALUE;
+        else if(result*sign<= Integer.MIN_VALUE) return Integer.MIN_VALUE;
+        else return findInt(input, result, start+1, sign);
     }
 }
