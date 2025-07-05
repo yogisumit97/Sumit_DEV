@@ -1,19 +1,20 @@
 class Solution {
-    static final int MOD = 1_000_000_007;
+    public final int MOD = 1_000_000_007;
     public int countGoodNumbers(long n) {
-        long even = (n+1)/2;
-        long odd = n/2;
-
-        long resEven = power(5, even);
-        long resOdd = power(4, odd);
-
-        return (int)((resEven*resOdd)%MOD);
+        // first digit = 5 no. possible
+        // second digit = 4 no. possible, like this you can go on
+        // so for any num n >> 5*4*5*4 n times results possible.
+        long evenDigits = (n+1)/2;
+        long oddDigits = n/2;
+        long result = (long)(power(5, evenDigits)*power(4, oddDigits))%MOD; 
+        return (int)result; 
     }
-    public long power(int base, long pow){ //divide and conquer 
+    private long power(long num, long pow){
         if(pow==0) return 1;
-        long half = power(base, pow/2);
-        long result = (half*half)%MOD;
-        if(pow%2==1) result = (result*base)%MOD;
-        return result;
+        if(num==1) return 1;
+        long half = power(num, pow/2);
+        long res = (half*half)%MOD; // to avoid long overflow
+        if(pow%2==0) return res;
+        else return (num*res)%MOD;
     }
 }
