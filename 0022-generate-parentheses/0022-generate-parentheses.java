@@ -1,16 +1,16 @@
 class Solution {
     public List<String> generateParenthesis(int n) {
-        return generateParenthesisHelper(1,2*n,"(",new ArrayList<String>(),1,0);
+        List<String> list = new ArrayList<>();
+        gPHelper(n, n, new String(), list);
+        return list;
     }
-    private List<String> generateParenthesisHelper(int index, int size, String result, List<String> ans,int openCount, int closeCount){
-        // If the number of open or close parentheses exceeds n or if close parentheses exceed open parentheses, the combination is invalid."
-        if(openCount>size/2 || closeCount>size/2 || openCount<closeCount) return ans;
-        if(index>=size){
-            ans.add(result.toString());
-            return ans;
+    private void gPHelper(int open, int close, String res, List<String> list){
+        if(open ==0 && close ==0){
+            list.add(res);
+            return;
         }
-        generateParenthesisHelper(index+1, size, result+'(', ans,openCount+1,closeCount);
-        generateParenthesisHelper(index+1, size, result+')', ans,openCount, closeCount+1);
-        return ans;
+        if(open > close) return;
+        if(open>0) gPHelper(open-1, close, res+"(", list);
+        if(close>0) gPHelper(open, close-1, res+")", list);
     }
 }
