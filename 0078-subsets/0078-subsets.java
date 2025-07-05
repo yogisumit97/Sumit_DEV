@@ -1,15 +1,17 @@
 class Solution {
-    public List<List<Integer>> subsets(int[] nums) { // using bit powerset technique
-        int subsets = 1<<(nums.length); // 2^n
-        List<List<Integer>> ans = new ArrayList<>();
-        for(int i=0; i<subsets; i++){ // ex. for 3 no. 0 to 7 check as 8 total subsets possible
-            //i is the no. of current subset, check it's ith bit is set or not for taking nums[i]
-            List<Integer> list = new ArrayList<>();
-            for(int j=0; j<nums.length; j++){
-                if((i&(1<<j))!=0) list.add(nums[j]);//meas bit is set for this num, add it in list.
-            }
-            ans.add(list);
+    public List<List<Integer>> subsets(int[] nums) {
+        List<List<Integer>> list = new ArrayList<>();
+        subsetsHelper(nums, 0, new ArrayList<Integer>(), list);
+        return list;
+    }
+    private void subsetsHelper(int[] nums, int i, List<Integer> res, List<List<Integer>> list){
+        if(i>=nums.length){
+            list.add(new ArrayList<>(res));
+            return;
         }
-        return ans;
+        res.add(nums[i]); // take and not take method
+        subsetsHelper(nums, i+1, res, list); //take
+        res.remove(res.size()-1);
+        subsetsHelper(nums, i+1, res, list); // not take
     }
 }
