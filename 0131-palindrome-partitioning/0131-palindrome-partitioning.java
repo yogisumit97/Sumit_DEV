@@ -1,6 +1,8 @@
 class Solution {
+    private Boolean dp[][];
     public List<List<String>> partition(String s) {
         List<List<String>> list = new ArrayList<>();
+        dp = new Boolean[s.length()][s.length()];
         partitionHelper(s, 0, new ArrayList<String>(), list);
         return list;
     }
@@ -10,21 +12,22 @@ class Solution {
             return;
         }
         for(int i=index+1; i<=s.length(); i++){
-            if(palindromeCheck(s.substring(index, i))){
+            if(palindromeCheck(s, index, i-1)){
                 result.add(s.substring(index,i));
                 partitionHelper(s,i,result,list);
                 result.remove(result.size()-1);
             }
         }
     }
-    private boolean palindromeCheck(String s){
-        int left = 0;
-        int right = s.length()-1;
-        while(left<right){
-            if(s.charAt(left)!=s.charAt(right)) return false;
-            left++;
-            right--;
+    private boolean palindromeCheck(String s, int start, int end){
+        if(dp[start][end]!=null) return dp[start][end];
+        while(start<end){
+            if(s.charAt(start)!=s.charAt(end)){
+                return dp[start][end] = false;
+            }
+            start++;
+            end--;
         }
-        return true;
+        return dp[start][end] = true;
     }
 }
