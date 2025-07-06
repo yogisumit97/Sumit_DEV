@@ -1,24 +1,21 @@
 class Solution {
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
+        List<List<Integer>> list = new ArrayList<>();
         Arrays.sort(candidates);
-        List<List<Integer>> ans = new ArrayList<>();
-        return findSubset(0, candidates,new ArrayList<Integer>(),0, ans, target);
+        sumHelper(candidates, 0, target, 0, new ArrayList<Integer>(), list);
+        return list;
     }
-    public List<List<Integer>> findSubset(int index,int[] nums, List<Integer> result,int sum, List<List<Integer>> ans, int target){
-        if(index >= nums.length || sum>=target){ //base case
-            if(sum==target) ans.add(new ArrayList<>(result)); //as java passes reference, take new 
-            return ans;
+    private void sumHelper(int[] arr, int i, int tar, int sum, List<Integer> res, List<List<Integer>> list){
+        if(sum==tar){
+            list.add(new ArrayList<>(res));
+            return;
         }
-        for (int i = index; i < nums.length; i++) {
-            if(sum>target) break;
-            if (i > index && nums[i] == nums[i - 1]) continue; // Skip duplicates
-            result.add(nums[i]); // Include the current number
-            findSubset(i + 1, nums, result, sum + nums[i], ans, target); // Move to the next index with the current number included
-            result.remove(result.size() - 1); // Backtrack: remove the last added number
+        for(int index= i; index<arr.length; index++){
+            if(index>i && arr[index] == arr[index-1]) continue;
+            if(sum+arr[index]>tar) break;
+            res.add(arr[index]);
+            sumHelper(arr, index+1, tar, sum+arr[index],res, list); //take
+            res.remove(res.size()-1);
         }
-        return ans;
     }
 }
-
-
-
