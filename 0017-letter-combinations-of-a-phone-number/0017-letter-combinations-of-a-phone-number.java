@@ -1,30 +1,33 @@
 class Solution {
     public List<String> letterCombinations(String digits) {
-        List<String> ans = new ArrayList<>();
-        if(digits.length()==0) return ans;
-        return findCombinations(0, digits,"", ans);
+        List<String> list = new ArrayList<>();
+        if(digits.length()==0) return list;
+        lCHelper(digits, 0, new StringBuilder(), list);
+        return list;
     }
-    public List<String> findCombinations(int index, String digits, String result, List<String> ans){
-            if(index>=digits.length()){
-                ans.add(new String(result));
-                return ans;
-            }
-            String curr="";
-            switch(digits.charAt(index)){
-                case '2' : curr = "abc"; break;
-                case '3' : curr = "def"; break;
-                case '4' : curr = "ghi"; break;
-                case '5' : curr = "jkl"; break;
-                case '6' : curr = "mno"; break;
-                case '7' : curr = "pqrs"; break;
-                case '8' : curr = "tuv"; break;
-                case '9' : curr = "wxyz"; break;
-            }
-            for(int i=0; i<curr.length(); i++){
-                result = result+curr.charAt(i);
-                findCombinations(index+1, digits,result, ans);
-                result = result.substring(0,result.length()-1);
-            }
-            return ans;
+    private void lCHelper(String digits, int i, StringBuilder sb, List<String> list){
+        if(i>=digits.length()){
+            list.add(new String(sb));
+            return;
+        }
+        String curr = getString(digits.charAt(i));
+        for(int j=0; j<curr.length(); j++){
+            sb.append(curr.charAt(j));
+            lCHelper(digits, i+1, sb, list);
+            sb.deleteCharAt(sb.length()-1);
+        }
+    }
+    private String getString(char ch){
+        switch(ch){
+            case '2': return "abc";
+            case '3': return "def";
+            case '4': return "ghi";
+            case '5': return "jkl";
+            case '6': return "mno";
+            case '7': return "pqrs";
+            case '8': return "tuv";
+            case '9': return "wxyz";
+        }
+        return "";
     }
 }
