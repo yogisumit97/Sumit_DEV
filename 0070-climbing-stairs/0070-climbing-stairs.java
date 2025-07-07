@@ -1,13 +1,17 @@
 class Solution {
     public int climbStairs(int n) {
-        int[] dp = new int[n+1];
-        for(int i=0; i<n+1; i++) dp[i] = -1;
-        return climbStairsHelper(n, 0, dp);
+        return climbStairsHelper(n, n);
     }
-    private int climbStairsHelper(int n, int curr, int[] dp){
-        if(curr==n) return 1; // reached
-        if(curr>n) return 0;
-        if(dp[curr]!=-1) return dp[curr];
-        return dp[curr] = climbStairsHelper(n, curr+1, dp)+climbStairsHelper(n, curr+2, dp); 
+    private int climbStairsHelper(int n, int curr){
+        int pre2 = 1;
+        int pre1 = 2;
+        if(n==1) return pre2;
+        if(n==2) return pre1;
+        for(int i=3; i<=n; i++){
+            int temp = pre2+pre1;
+            pre2 = pre1;
+            pre1 = temp;
+        }
+        return pre1;
     }
 }
