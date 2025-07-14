@@ -173,6 +173,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0516-longest-palindromic-subsequence](https://github.com/yogisumit97/Sumit_DEV/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/yogisumit97/Sumit_DEV/tree/master/0542-01-matrix) |
+| [0583-delete-operation-for-two-strings](https://github.com/yogisumit97/Sumit_DEV/tree/master/0583-delete-operation-for-two-strings) |
 | [0678-valid-parenthesis-string](https://github.com/yogisumit97/Sumit_DEV/tree/master/0678-valid-parenthesis-string) |
 | [0943-sum-of-subarray-minimums](https://github.com/yogisumit97/Sumit_DEV/tree/master/0943-sum-of-subarray-minimums) |
 | [0967-minimum-falling-path-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0967-minimum-falling-path-sum) |
@@ -259,6 +260,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0424-longest-repeating-character-replacement](https://github.com/yogisumit97/Sumit_DEV/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/yogisumit97/Sumit_DEV/tree/master/0451-sort-characters-by-frequency) |
 | [0516-longest-palindromic-subsequence](https://github.com/yogisumit97/Sumit_DEV/tree/master/0516-longest-palindromic-subsequence) |
+| [0583-delete-operation-for-two-strings](https://github.com/yogisumit97/Sumit_DEV/tree/master/0583-delete-operation-for-two-strings) |
 | [0678-valid-parenthesis-string](https://github.com/yogisumit97/Sumit_DEV/tree/master/0678-valid-parenthesis-string) |
 | [0812-rotate-string](https://github.com/yogisumit97/Sumit_DEV/tree/master/0812-rotate-string) |
 | [1078-remove-outermost-parentheses](https://github.com/yogisumit97/Sumit_DEV/tree/master/1078-remove-outermost-parentheses) |
