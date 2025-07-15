@@ -17,12 +17,6 @@ class Solution {
                 }
             }
         }
-        for(int i=0; i<=len1; i++){
-            for(int j=0; j<=len2; j++){
-                System.out.print(dp[i][j] + " ");
-            }
-            System.out.println();
-        }
         return dp[len1][len2];
     }
 }
