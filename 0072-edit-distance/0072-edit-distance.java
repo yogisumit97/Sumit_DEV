@@ -1,7 +1,9 @@
 class Solution {
     public int minDistance(String word1, String word2) {
-        int[][] dp = new int[word1.length()][word2.length()];
-        return mdHelper(word1, word2, word1.length()-1, word2.length()-1, dp);
+        int len1 = word1.length();
+        int len2 = word2.length();
+        int[][] dp = new int[len1][len2];
+        return mdHelper(word1, word2, len1-1, len2-1, dp);
     }
     private int mdHelper(String s1, String s2, int i1, int i2, int[][] dp){
         if(i2<0) return i1+1;
