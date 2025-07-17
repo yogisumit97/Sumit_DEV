@@ -276,6 +276,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/yogisumit97/Sumit_DEV/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2032-largest-odd-number-in-string](https://github.com/yogisumit97/Sumit_DEV/tree/master/2032-largest-odd-number-in-string) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/yogisumit97/Sumit_DEV/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
+| [3931-process-string-with-special-operations-i](https://github.com/yogisumit97/Sumit_DEV/tree/master/3931-process-string-with-special-operations-i) |
 ## Math
 |  |
 | ------- |
@@ -477,6 +478,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2048-build-array-from-permutation](https://github.com/yogisumit97/Sumit_DEV/tree/master/2048-build-array-from-permutation) |
 | [3311-ant-on-the-boundary](https://github.com/yogisumit97/Sumit_DEV/tree/master/3311-ant-on-the-boundary) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/yogisumit97/Sumit_DEV/tree/master/3600-find-the-k-th-character-in-string-game-i) |
+| [3931-process-string-with-special-operations-i](https://github.com/yogisumit97/Sumit_DEV/tree/master/3931-process-string-with-special-operations-i) |
 ## Backtracking
 |  |
 | ------- |
