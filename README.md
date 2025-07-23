@@ -196,6 +196,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0797-rabbits-in-forest](https://github.com/yogisumit97/Sumit_DEV/tree/master/0797-rabbits-in-forest) |
 | [0890-lemonade-change](https://github.com/yogisumit97/Sumit_DEV/tree/master/0890-lemonade-change) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/yogisumit97/Sumit_DEV/tree/master/1049-minimum-domino-rotations-for-equal-row) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/yogisumit97/Sumit_DEV/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2032-largest-odd-number-in-string](https://github.com/yogisumit97/Sumit_DEV/tree/master/2032-largest-odd-number-in-string) |
 ## Prefix Sum
 |  |
@@ -275,6 +276,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/yogisumit97/Sumit_DEV/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1512-design-underground-system](https://github.com/yogisumit97/Sumit_DEV/tree/master/1512-design-underground-system) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/yogisumit97/Sumit_DEV/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/yogisumit97/Sumit_DEV/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/yogisumit97/Sumit_DEV/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2032-largest-odd-number-in-string](https://github.com/yogisumit97/Sumit_DEV/tree/master/2032-largest-odd-number-in-string) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/yogisumit97/Sumit_DEV/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
@@ -361,6 +363,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1078-remove-outermost-parentheses](https://github.com/yogisumit97/Sumit_DEV/tree/master/1078-remove-outermost-parentheses) |
 | [1582-design-browser-history](https://github.com/yogisumit97/Sumit_DEV/tree/master/1582-design-browser-history) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/yogisumit97/Sumit_DEV/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/yogisumit97/Sumit_DEV/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2227-sum-of-subarray-ranges](https://github.com/yogisumit97/Sumit_DEV/tree/master/2227-sum-of-subarray-ranges) |
 ## Divide and Conquer
 |  |
