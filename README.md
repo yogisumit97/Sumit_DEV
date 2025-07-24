@@ -54,6 +54,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0268-missing-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/0268-missing-number) |
 | [0274-h-index](https://github.com/yogisumit97/Sumit_DEV/tree/master/0274-h-index) |
 | [0283-move-zeroes](https://github.com/yogisumit97/Sumit_DEV/tree/master/0283-move-zeroes) |
+| [0300-longest-increasing-subsequence](https://github.com/yogisumit97/Sumit_DEV/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/yogisumit97/Sumit_DEV/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/yogisumit97/Sumit_DEV/tree/master/0322-coin-change) |
 | [0410-split-array-largest-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0410-split-array-largest-sum) |
@@ -145,6 +146,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0074-search-a-2d-matrix](https://github.com/yogisumit97/Sumit_DEV/tree/master/0074-search-a-2d-matrix) |
 | [0222-count-complete-tree-nodes](https://github.com/yogisumit97/Sumit_DEV/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/0268-missing-number) |
+| [0300-longest-increasing-subsequence](https://github.com/yogisumit97/Sumit_DEV/tree/master/0300-longest-increasing-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0410-split-array-largest-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/yogisumit97/Sumit_DEV/tree/master/1046-max-consecutive-ones-iii) |
 | [2047-find-a-peak-element-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/2047-find-a-peak-element-ii) |
@@ -176,6 +178,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/yogisumit97/Sumit_DEV/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/yogisumit97/Sumit_DEV/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0213-house-robber-ii) |
+| [0300-longest-increasing-subsequence](https://github.com/yogisumit97/Sumit_DEV/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/yogisumit97/Sumit_DEV/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/yogisumit97/Sumit_DEV/tree/master/0322-coin-change) |
 | [0410-split-array-largest-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0410-split-array-largest-sum) |
