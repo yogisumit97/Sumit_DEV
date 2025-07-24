@@ -65,6 +65,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0503-next-greater-element-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0503-next-greater-element-ii) |
 | [0518-coin-change-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/yogisumit97/Sumit_DEV/tree/master/0542-01-matrix) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/yogisumit97/Sumit_DEV/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0733-flood-fill](https://github.com/yogisumit97/Sumit_DEV/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/yogisumit97/Sumit_DEV/tree/master/0735-asteroid-collision) |
 | [0797-rabbits-in-forest](https://github.com/yogisumit97/Sumit_DEV/tree/master/0797-rabbits-in-forest) |
@@ -184,6 +185,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0542-01-matrix](https://github.com/yogisumit97/Sumit_DEV/tree/master/0542-01-matrix) |
 | [0583-delete-operation-for-two-strings](https://github.com/yogisumit97/Sumit_DEV/tree/master/0583-delete-operation-for-two-strings) |
 | [0678-valid-parenthesis-string](https://github.com/yogisumit97/Sumit_DEV/tree/master/0678-valid-parenthesis-string) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/yogisumit97/Sumit_DEV/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0943-sum-of-subarray-minimums](https://github.com/yogisumit97/Sumit_DEV/tree/master/0943-sum-of-subarray-minimums) |
 | [0967-minimum-falling-path-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0967-minimum-falling-path-sum) |
 | [1013-fibonacci-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/1013-fibonacci-number) |
@@ -199,6 +201,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0410-split-array-largest-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0410-split-array-largest-sum) |
 | [0455-assign-cookies](https://github.com/yogisumit97/Sumit_DEV/tree/master/0455-assign-cookies) |
 | [0678-valid-parenthesis-string](https://github.com/yogisumit97/Sumit_DEV/tree/master/0678-valid-parenthesis-string) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/yogisumit97/Sumit_DEV/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0797-rabbits-in-forest](https://github.com/yogisumit97/Sumit_DEV/tree/master/0797-rabbits-in-forest) |
 | [0890-lemonade-change](https://github.com/yogisumit97/Sumit_DEV/tree/master/0890-lemonade-change) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/yogisumit97/Sumit_DEV/tree/master/1049-minimum-domino-rotations-for-equal-row) |
