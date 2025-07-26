@@ -156,6 +156,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/yogisumit97/Sumit_DEV/tree/master/0005-longest-palindromic-substring) |
 | [0010-regular-expression-matching](https://github.com/yogisumit97/Sumit_DEV/tree/master/0010-regular-expression-matching) |
 | [0022-generate-parentheses](https://github.com/yogisumit97/Sumit_DEV/tree/master/0022-generate-parentheses) |
+| [0032-longest-valid-parentheses](https://github.com/yogisumit97/Sumit_DEV/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/yogisumit97/Sumit_DEV/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/yogisumit97/Sumit_DEV/tree/master/0055-jump-game) |
@@ -259,6 +260,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0017-letter-combinations-of-a-phone-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/yogisumit97/Sumit_DEV/tree/master/0022-generate-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/yogisumit97/Sumit_DEV/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0032-longest-valid-parentheses](https://github.com/yogisumit97/Sumit_DEV/tree/master/0032-longest-valid-parentheses) |
 | [0072-edit-distance](https://github.com/yogisumit97/Sumit_DEV/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/yogisumit97/Sumit_DEV/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/yogisumit97/Sumit_DEV/tree/master/0079-word-search) |
@@ -352,6 +354,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 |  |
 | ------- |
+| [0032-longest-valid-parentheses](https://github.com/yogisumit97/Sumit_DEV/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/yogisumit97/Sumit_DEV/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/yogisumit97/Sumit_DEV/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/yogisumit97/Sumit_DEV/tree/master/0085-maximal-rectangle) |
