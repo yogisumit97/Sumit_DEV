@@ -1,12 +1,12 @@
 class Solution {
     public void reverseString(char[] s) {
-        int num = 1;
-        reverseArray(s,num);
+        reverseArray(s,0, s.length-1);
     }
-    public void reverseArray(char[] s, int num){
-        if(num>s.length) return; // base case
-        char ch = s[num-1];
-        reverseArray(s,num+1);
-        s[s.length-num] = ch;
+    public void reverseArray(char[] s, int i, int j){
+        if(i>=j) return; // base case
+        char temp = s[i];
+        s[i] = s[j];
+        s[j] = temp;
+        reverseArray(s,i+1, j-1); //recursive call with change
     }
 }
