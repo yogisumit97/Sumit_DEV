@@ -21,6 +21,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0063-unique-paths-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/yogisumit97/Sumit_DEV/tree/master/0074-search-a-2d-matrix) |
+| [0075-sort-colors](https://github.com/yogisumit97/Sumit_DEV/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/yogisumit97/Sumit_DEV/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/yogisumit97/Sumit_DEV/tree/master/0079-word-search) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
@@ -236,6 +237,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/yogisumit97/Sumit_DEV/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0042-trapping-rain-water](https://github.com/yogisumit97/Sumit_DEV/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/yogisumit97/Sumit_DEV/tree/master/0061-rotate-list) |
+| [0075-sort-colors](https://github.com/yogisumit97/Sumit_DEV/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/yogisumit97/Sumit_DEV/tree/master/0125-valid-palindrome) |
@@ -346,6 +348,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/yogisumit97/Sumit_DEV/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/0088-merge-sorted-array) |
 | [0148-sort-list](https://github.com/yogisumit97/Sumit_DEV/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/yogisumit97/Sumit_DEV/tree/master/0169-majority-element) |
