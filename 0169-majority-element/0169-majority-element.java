@@ -1,17 +1,15 @@
 class Solution {
     public int majorityElement(int[] nums) {
-        int count = 0;
-        int majElement = Integer.MIN_VALUE;
-        for(int i : nums){
-            if(i==majElement) count++;
-            else{
-                if(count==0){
-                    majElement = i;
-                    count++;
-                }
-                else count--;
+        int maxOccurElement = nums[0];
+        int occurance = 1;
+        for(int i =1; i<nums.length; i++){
+            if(nums[i]==maxOccurElement) occurance++;
+            else occurance--;
+            if(occurance ==0){
+                occurance = 1;
+                maxOccurElement = nums[i];
             }
         }
-        return majElement;
+        return maxOccurElement;
     }
 }
