@@ -39,6 +39,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/yogisumit97/Sumit_DEV/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
+| [0128-longest-consecutive-sequence](https://github.com/yogisumit97/Sumit_DEV/tree/master/0128-longest-consecutive-sequence) |
 | [0135-candy](https://github.com/yogisumit97/Sumit_DEV/tree/master/0135-candy) |
 | [0136-single-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/0136-single-number) |
 | [0139-word-break](https://github.com/yogisumit97/Sumit_DEV/tree/master/0139-word-break) |
@@ -113,6 +114,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0076-minimum-window-substring](https://github.com/yogisumit97/Sumit_DEV/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/yogisumit97/Sumit_DEV/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/yogisumit97/Sumit_DEV/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0128-longest-consecutive-sequence](https://github.com/yogisumit97/Sumit_DEV/tree/master/0128-longest-consecutive-sequence) |
 | [0138-copy-list-with-random-pointer](https://github.com/yogisumit97/Sumit_DEV/tree/master/0138-copy-list-with-random-pointer) |
 | [0139-word-break](https://github.com/yogisumit97/Sumit_DEV/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/yogisumit97/Sumit_DEV/tree/master/0141-linked-list-cycle) |
@@ -758,6 +760,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Union Find
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/yogisumit97/Sumit_DEV/tree/master/0128-longest-consecutive-sequence) |
 | [0547-number-of-provinces](https://github.com/yogisumit97/Sumit_DEV/tree/master/0547-number-of-provinces) |
 ## Combinatorics
 |  |
