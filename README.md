@@ -57,6 +57,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0219-contains-duplicate-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0219-contains-duplicate-ii) |
 | [0238-product-of-array-except-self](https://github.com/yogisumit97/Sumit_DEV/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0239-sliding-window-maximum) |
+| [0240-search-a-2d-matrix-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0240-search-a-2d-matrix-ii) |
 | [0260-single-number-iii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0260-single-number-iii) |
 | [0268-missing-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/0268-missing-number) |
 | [0274-h-index](https://github.com/yogisumit97/Sumit_DEV/tree/master/0274-h-index) |
@@ -155,6 +156,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0069-sqrtx](https://github.com/yogisumit97/Sumit_DEV/tree/master/0069-sqrtx) |
 | [0074-search-a-2d-matrix](https://github.com/yogisumit97/Sumit_DEV/tree/master/0074-search-a-2d-matrix) |
 | [0222-count-complete-tree-nodes](https://github.com/yogisumit97/Sumit_DEV/tree/master/0222-count-complete-tree-nodes) |
+| [0240-search-a-2d-matrix-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/yogisumit97/Sumit_DEV/tree/master/0300-longest-increasing-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0410-split-array-largest-sum) |
@@ -415,6 +417,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0148-sort-list](https://github.com/yogisumit97/Sumit_DEV/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/yogisumit97/Sumit_DEV/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/0215-kth-largest-element-in-an-array) |
+| [0240-search-a-2d-matrix-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0240-search-a-2d-matrix-ii) |
 ## Matrix
 |  |
 | ------- |
@@ -426,6 +429,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0074-search-a-2d-matrix](https://github.com/yogisumit97/Sumit_DEV/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/yogisumit97/Sumit_DEV/tree/master/0079-word-search) |
 | [0085-maximal-rectangle](https://github.com/yogisumit97/Sumit_DEV/tree/master/0085-maximal-rectangle) |
+| [0240-search-a-2d-matrix-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0240-search-a-2d-matrix-ii) |
 | [0542-01-matrix](https://github.com/yogisumit97/Sumit_DEV/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/yogisumit97/Sumit_DEV/tree/master/0733-flood-fill) |
 | [0967-minimum-falling-path-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0967-minimum-falling-path-sum) |
