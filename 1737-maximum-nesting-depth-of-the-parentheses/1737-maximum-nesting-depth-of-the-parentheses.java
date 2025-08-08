@@ -1,17 +1,14 @@
 class Solution {
     public int maxDepth(String s) {
-        int max = 0;
-        Stack<Character> stack = new Stack<>();
-        for(int i=0; i<s.length(); i++){
-            char ch = s.charAt(i);
-            if(ch== '('){
-                stack.push(ch);
-                max = Math.max(max, stack.size());
+        int max_overall = 0;  //kadane's algorithm types implementation in finding max
+        int max_current = 0;
+        for(char i : s.toCharArray()){
+            if(i=='('){
+                max_current++;
+                max_overall = Math.max(max_overall,max_current);
             }
-            else if(ch==')'){
-                stack.pop();
-            }
+            else if(i==')') max_current = Math.max(max_current-1,0);
         }
-        return max;
+        return max_overall;
     }
 }
