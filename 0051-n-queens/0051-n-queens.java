@@ -1,43 +1,64 @@
 class Solution {
     public List<List<String>> solveNQueens(int n) {
-        char[][] board = new char[n][n]; //board[i][j] = '.' means it is empty space and it can be filled with queen
-        for(int l = 0; l<board.length; l++){
-            for(int r=0; r<board.length; r++) board[l][r] = '.';
+        List<List<String>> list = new ArrayList<>();
+        char[][] board = new char[n][n];
+        for(int i=0; i<n; i++){
+            for(int j=0; j<n; j++){
+                board[i][j] = '.';
+            }
         }
-        List<List<String>> ans = new ArrayList<>();
-        nextQueenPositionHelper(board, 0, ans); 
-        return ans;    
+        nQueenHelper(list, board, 0, n);
+        return list;
     }
-    private void nextQueenPositionHelper(char[][] board, int col, List<List<String>> ans){
-        if(col>=board.length){
-            List<String> result = new ArrayList<>();
-            for(int i =0; i<board.length;i++) result.add(new String(board[i]));
-            ans.add(new ArrayList<>(result));
+    private void printBoard(char[][] board, int n){
+        for(int i=0; i<n; i++){
+            for(int j=0; j<n; j++){
+                System.out.print(board[i][j]+"  ");
+            }
+            System.out.println();
+        }
+        System.out.println();
+    }
+    private void nQueenHelper(List<List<String>> list, char[][] board, int col, int n){
+        if(col>=n){
+            List<String> res = new ArrayList<>();
+            for(int i=0; i<n; i++){
+                res.add(new String(board[i]));
+            }
+            list.add(res);
             return;
         }
-        for(int i=0; i<board.length;i++){ //fill in first row and check further
-            if(!checkQueenPossibility(i,col, board,board.length)) continue;
-            board[i][col] ='Q'; // place queen at i,col.
-            nextQueenPositionHelper(board, col+1, ans);
-            board[i][col] ='.'; // replace for backtracking.
+        for(int i =0; i<n; i++){
+            if(isValidPosition(i, col, board)){
+                // backtracking
+                board[i][col] = 'Q';
+                nQueenHelper(list, board, col+1, n);
+                board[i][col] = '.';
+            }
         }
     }
-    private boolean checkQueenPossibility(int row, int col, char[][] board, int n){ //queen at row,col position
-        for(int j = 0; j<col; j++) if(board[row][j]=='Q') return false;// check horizontally.
-        for(int i = 0; i<row; i++) if(board[i][col]=='Q') return false;// check vertically. 
-        int i= row;
-        int j= col;
-        while(i>=0 && j>=0 && i<n && j<n){// check diagonally downwards.
-            if(board[i][j]=='Q') return false;
-            i = i+1;
-            j = j-1;
+    private boolean isValidPosition(int row, int col, char[][] board){
+        // check left side 
+        for(int j=col-1; j>=0; j--){
+            if(board[row][j]=='Q') return false;
         }
-        i= row;
-        j= col;
-        while(i>=0 && j>=0 && i<n && j<n){// check diagonally upwards.
+        //check upwards
+        for(int i=row-1; i>=0; i--){
+            if(board[i][col]=='Q') return false;
+        }
+        // check diagonally upwards
+        int i = row-1;
+        for(int j=col-1; j>=0; j--){
+            if(i<0) break;
             if(board[i][j]=='Q') return false;
-            i = i-1;
-            j = j-1;
+            i--;
+        }
+        // check diagonally downwards
+        i = row+1;
+        for(int j=col-1; j>=0; j--){
+            if(i>=board.length) break;
+            if(board[i][j]=='Q') return false;
+            i++;
         }
         return true;
     }
