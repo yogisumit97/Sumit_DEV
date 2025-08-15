@@ -70,6 +70,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0416-partition-equal-subset-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0416-partition-equal-subset-sum) |
 | [0455-assign-cookies](https://github.com/yogisumit97/Sumit_DEV/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/yogisumit97/Sumit_DEV/tree/master/0485-max-consecutive-ones) |
+| [0494-target-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/yogisumit97/Sumit_DEV/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0503-next-greater-element-ii) |
 | [0518-coin-change-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0518-coin-change-ii) |
@@ -199,6 +200,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0322-coin-change](https://github.com/yogisumit97/Sumit_DEV/tree/master/0322-coin-change) |
 | [0410-split-array-largest-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/yogisumit97/Sumit_DEV/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/yogisumit97/Sumit_DEV/tree/master/0542-01-matrix) |
@@ -548,6 +550,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0216-combination-sum-iii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0216-combination-sum-iii) |
 | [0257-binary-tree-paths](https://github.com/yogisumit97/Sumit_DEV/tree/master/0257-binary-tree-paths) |
 | [0282-expression-add-operators](https://github.com/yogisumit97/Sumit_DEV/tree/master/0282-expression-add-operators) |
+| [0494-target-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0494-target-sum) |
 ## Depth-First Search
 |  |
 | ------- |
