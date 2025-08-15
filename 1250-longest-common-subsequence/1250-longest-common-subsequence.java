@@ -2,13 +2,25 @@ class Solution {
     public int longestCommonSubsequence(String text1, String text2) {
         int len1 = text1.length();
         int len2 = text2.length();
-        Integer[][] dp = new Integer[len1][len2];
-        return lcsHelper(text1, text2, len1-1, len2-1, dp);
-    }
-    private int lcsHelper(String s1, String s2, int i1, int i2, Integer[][] dp){
-        if(i1<0 || i2<0) return 0;
-        if(dp[i1][i2] !=null) return dp[i1][i2];
-        if(s1.charAt(i1) == s2.charAt(i2)) return dp[i1][i2] = 1 + lcsHelper(s1, s2, i1-1, i2-1, dp);
-        else return dp[i1][i2] = Math.max(lcsHelper(s1, s2, i1, i2-1, dp),lcsHelper(s1, s2, i1-1, i2, dp));
+        int[][] dp = new int[len1][len2];  
+        if(text1.charAt(0)==text2.charAt(0)) dp[0][0] = 1;  
+        for (int j = 1; j < len2; j++) {
+            if (text1.charAt(0) == text2.charAt(j)) dp[0][j] = 1;
+            else dp[0][j] = dp[0][j-1];
+        }
+        for (int i = 1; i < len1; i++) {
+            if (text1.charAt(i) == text2.charAt(0)) dp[i][0] = 1;
+            else dp[i][0] = dp[i-1][0];
+        }
+        for(int i1 = 1; i1<len1; i1++){
+            for(int i2=1; i2<len2; i2++){
+                int match = 0;
+                int notMatch = 0;
+                if(text1.charAt(i1) == text2.charAt(i2)) match = 1 + dp[i1-1][i2-1];
+                else notMatch = Math.max(dp[i1][i2-1], dp[i1-1][i2]);
+                dp[i1][i2] = Math.max(match, notMatch);
+            }
+        }
+        return dp[len1-1][len2-1];
     }
 }
