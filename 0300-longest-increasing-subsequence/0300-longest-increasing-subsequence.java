@@ -1,16 +1,23 @@
 class Solution {
     public int lengthOfLIS(int[] nums) {
-        int[] dp = new int[nums.length];
-        int max = 0;
-        Arrays.fill(dp, 1); // min length of LIS will be 1 at each index
-        for(int curr = 0; curr< nums.length; curr++){
-            for(int i=curr-1; i>=0; i--){
-                if(nums[curr] > nums[i]){
-                    dp[curr] = Math.max(dp[curr], 1+ dp[i]);
-                }
-            }
-            max = Math.max(max , dp[curr]);
+        List<Integer> list = new ArrayList<>();
+        for(int i=0; i<nums.length; i++){
+            int index = findUpperBoundIndex(0, list.size()-1, list, nums[i]);
+            if(index < 0 || index >= list.size()) list.add(nums[i]);
+            else list.set(index, nums[i]);
         }
-        return max;
+        //System.out.println(list);
+        return list.size();
+    }
+    private int findUpperBoundIndex(int left, int right, List<Integer> list, int target){
+        int l = left;
+        int r = right;
+        while(l <= r){
+            int mid = (l+ r)/2;
+            if(list.get(mid) < target) l = mid+1;
+            else r = mid-1;
+        }
+        //System.out.println(list+"    "+ target+ "  "+ l);
+        return l;
     }
 }
