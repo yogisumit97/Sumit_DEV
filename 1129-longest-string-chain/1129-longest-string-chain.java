@@ -1,14 +1,14 @@
 class Solution {
     public int longestStrChain(String[] words) {
         Arrays.sort(words, (a, b) -> a.length() - b.length());
-        int[][] dp = new int[words.length+1][words.length+1];
+        Integer[][] dp = new Integer[words.length+1][words.length+1];
         return helper(0, words, words.length, dp);
     }
-    private int helper(int i, String[] words, int prevIdx, int[][] dp){
+    private int helper(int i, String[] words, int prevIdx, Integer[][] dp){
         if(i>= words.length){
             return 0;
         }
-        if(dp[i][prevIdx]!=0) return dp[i][prevIdx];
+        if(dp[i][prevIdx]!=null) return dp[i][prevIdx];
         // take and skip method
         int take = 0;
         if(prevIdx ==words.length || (words[i].length() == words[prevIdx].length()+1 && isSubsequence(words, i, prevIdx))){
