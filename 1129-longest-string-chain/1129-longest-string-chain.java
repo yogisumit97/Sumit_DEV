@@ -1,22 +1,20 @@
 class Solution {
     public int longestStrChain(String[] words) {
-        int len = words.length;
-        Arrays.sort(words, (a, b) -> a.length() - b.length());
-        int[][] dp = new int[len+1][len+1];
-        for(int i=len-1; i>=0; i--){
-            for(int j=len; j>=0; j--){
-                // take and skip method
-                int take = 0;
-                if(j == len || (words[i].length() == words[j].length()+1 && isSubsequence(words, i, j))){
-                    take = 1 + dp[i+1][i];
+        Arrays.sort(words, (a, b) -> a.length()-b.length());
+        int len =words.length;
+        int[] dp = new int[len];
+        int max = 1;
+        Arrays.fill(dp, 1);
+        for(int i=1; i<len; i++){
+            for(int prev = i-1; prev>=0; prev--){
+                if(words[prev].length()+1 == words[i].length() && isSubsequence(words, i, prev)){
+                    dp[i] = Math.max(dp[i], dp[prev]+1);
                 }
-                int skip = dp[i+1][j]; 
-                dp[i][j] = Math.max(take, skip);
             }
+            max = Math.max(max, dp[i]);
         }
-        return dp[0][len];
+        return max;
     }
-    
     private boolean isSubsequence(String[] words, int i, int j){
         int ind1 = 0;
         int ind2 = 0;
@@ -30,5 +28,5 @@ class Solution {
 
         if(ind2 == words[j].length()) return true;
         return false;
-    } 
+    }
 }
