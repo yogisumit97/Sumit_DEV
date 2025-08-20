@@ -1,22 +1,22 @@
 class Solution {
     public int longestStrChain(String[] words) {
+        int len = words.length;
         Arrays.sort(words, (a, b) -> a.length() - b.length());
-        Integer[][] dp = new Integer[words.length+1][words.length+1];
-        return helper(0, words, words.length, dp);
-    }
-    private int helper(int i, String[] words, int prevIdx, Integer[][] dp){
-        if(i>= words.length){
-            return 0;
+        int[][] dp = new int[len+1][len+1];
+        for(int i=len-1; i>=0; i--){
+            for(int j=len; j>=0; j--){
+                // take and skip method
+                int take = 0;
+                if(j == len || (words[i].length() == words[j].length()+1 && isSubsequence(words, i, j))){
+                    take = 1 + dp[i+1][i];
+                }
+                int skip = dp[i+1][j]; 
+                dp[i][j] = Math.max(take, skip);
+            }
         }
-        if(dp[i][prevIdx]!=null) return dp[i][prevIdx];
-        // take and skip method
-        int take = 0;
-        if(prevIdx ==words.length || (words[i].length() == words[prevIdx].length()+1 && isSubsequence(words, i, prevIdx))){
-            take = 1 + helper(i+1, words, i, dp);
-        }
-        int skip = helper(i+1, words, prevIdx, dp);
-        return dp[i][prevIdx] = Math.max(take, skip);
+        return dp[0][len];
     }
+    
     private boolean isSubsequence(String[] words, int i, int j){
         int ind1 = 0;
         int ind2 = 0;
