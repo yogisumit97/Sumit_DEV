@@ -96,6 +96,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/yogisumit97/Sumit_DEV/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/yogisumit97/Sumit_DEV/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1574-maximum-product-of-two-elements-in-an-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/1574-maximum-product-of-two-elements-in-an-array) |
 | [1580-shuffle-the-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/1580-shuffle-the-array) |
 | [1582-design-browser-history](https://github.com/yogisumit97/Sumit_DEV/tree/master/1582-design-browser-history) |
 | [1603-running-sum-of-1d-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/1603-running-sum-of-1d-array) |
@@ -386,6 +387,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0455-assign-cookies](https://github.com/yogisumit97/Sumit_DEV/tree/master/0455-assign-cookies) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/yogisumit97/Sumit_DEV/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1129-longest-string-chain](https://github.com/yogisumit97/Sumit_DEV/tree/master/1129-longest-string-chain) |
+| [1574-maximum-product-of-two-elements-in-an-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/1574-maximum-product-of-two-elements-in-an-array) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/yogisumit97/Sumit_DEV/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2215-finding-3-digit-even-numbers](https://github.com/yogisumit97/Sumit_DEV/tree/master/2215-finding-3-digit-even-numbers) |
 | [3321-type-of-triangle](https://github.com/yogisumit97/Sumit_DEV/tree/master/3321-type-of-triangle) |
@@ -479,6 +481,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0239-sliding-window-maximum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0239-sliding-window-maximum) |
 | [0451-sort-characters-by-frequency](https://github.com/yogisumit97/Sumit_DEV/tree/master/0451-sort-characters-by-frequency) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/yogisumit97/Sumit_DEV/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1574-maximum-product-of-two-elements-in-an-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/1574-maximum-product-of-two-elements-in-an-array) |
 ## Bucket Sort
 |  |
 | ------- |
