@@ -360,6 +360,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3321-type-of-triangle](https://github.com/yogisumit97/Sumit_DEV/tree/master/3321-type-of-triangle) |
 | [3371-harshad-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/3371-harshad-number) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/yogisumit97/Sumit_DEV/tree/master/3600-find-the-k-th-character-in-string-game-i) |
+| [3830-find-closest-person](https://github.com/yogisumit97/Sumit_DEV/tree/master/3830-find-closest-person) |
 ## Trie
 |  |
 | ------- |
