@@ -8,6 +8,7 @@ class Solution {
             if(freqMap.get(num) > min){
                 if(list.size()==0) list.add(num);
                 else if(list.size()==1 && list.get(0)!= num) list.add(num);
+                else if(list.size()==2) return list;
                 else continue;
             }
         }
