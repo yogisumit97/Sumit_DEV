@@ -1,21 +1,37 @@
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);
-        //List<List<Integer>> list = new ArrayList<>();
-        HashSet<List<Integer>> listSet = new HashSet<>();
+        List<List<Integer>> list = new ArrayList<>();
+        int i =0;
         int len = nums.length;
-        for(int i=0; i<len; i++){
-            HashSet<Integer> hset = new HashSet<>();
-            //hset.add(nums[i]);
-            for(int j=i+1; j<len; j++){
-                int sum = nums[i] + nums[j];
-                int toFind = 0 - sum;
-                if(hset.contains(toFind)){
-                    listSet.add(Arrays.asList(nums[i], nums[j], toFind));
+        while(i < len){
+            int j = i+1;
+            int k = len-1;
+            while(j<k){
+                int sum = nums[i] + nums[j] + nums[k];
+                if(sum > 0){
+                    k = findNextUnique(nums, k , -1, len);
                 }
-                hset.add(nums[j]);
+                else if(sum < 0){
+                    j = findNextUnique(nums, j , 1, len);
+                }
+                else{
+                    List<Integer> l = new ArrayList<>();
+                    l.add(nums[i]); l.add(nums[j]); l.add(nums[k]);
+                    list.add(l);
+                    k = findNextUnique(nums, k , -1, len);
+                    j = findNextUnique(nums, j , 1, len);
+                }
             }
+            i = findNextUnique(nums, i , 1, len);
         }
-        return new ArrayList<>(listSet);
+        return list;
+    }
+    private int findNextUnique(int[] nums, int i, int add, int len){
+        int temp = nums[i]; 
+        while(i<len && i>=0 && temp == nums[i]){
+            i = i+add;
+        }
+        return i;
     }
 }
