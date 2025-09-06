@@ -1,22 +1,42 @@
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         Arrays.sort(nums);
-        HashSet<List<Integer>> listSet = new HashSet<>();
+        List<List<Integer>> list = new ArrayList<>();
+        int i =0;
         int len = nums.length;
-        for(int i=0; i<len; i++){
-            for(int k=i+1; k<len; k++){
-                HashSet<Integer> hset = new HashSet<>();
-                for(int j=k+1; j<len; j++){
-                    long sum = (long)nums[i] + nums[j] + nums[k];
-                    if(sum>Integer.MAX_VALUE || sum< Integer.MIN_VALUE) continue;
-                    int toFind = target - (int)sum;
-                    if(hset.contains(toFind)){
-                        listSet.add(Arrays.asList(nums[i], nums[k], nums[j], (int)toFind));
+        while(i < len){
+            int x = i+1; // keeping i and k constant
+            while(x < len){
+                int j = x + 1;
+                int k = len-1;
+                while(j<k){
+                    long sum = (long)nums[i] + nums[j] + nums[k] + nums[x];
+                
+                    if(sum > target){
+                        k = findNextUnique(nums, k , -1, len);
                     }
-                    hset.add(nums[j]);
+                    else if(sum < target){
+                        j = findNextUnique(nums, j , 1, len);
+                    }
+                    else{
+                        List<Integer> l = new ArrayList<>();
+                        l.add(nums[i]); l.add(nums[j]); l.add(nums[k]); l.add(nums[x]);
+                        list.add(l);
+                        k = findNextUnique(nums, k , -1, len);
+                        j = findNextUnique(nums, j , 1, len);
+                    }
                 }
+                x = findNextUnique(nums, x , 1, len);
             }
+            i = findNextUnique(nums, i , 1, len);
         }
-        return new ArrayList<>(listSet);
+        return list;
+    }
+    private int findNextUnique(int[] nums, int i, int add, int len){
+        int temp = nums[i]; 
+        while(i<len && i>=0 && temp == nums[i]){
+            i = i+add;
+        }
+        return i;
     }
 }
