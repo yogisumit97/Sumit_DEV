@@ -51,6 +51,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0135-candy](https://github.com/yogisumit97/Sumit_DEV/tree/master/0135-candy) |
 | [0136-single-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/0136-single-number) |
 | [0139-word-break](https://github.com/yogisumit97/Sumit_DEV/tree/master/0139-word-break) |
+| [0162-find-peak-element](https://github.com/yogisumit97/Sumit_DEV/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/yogisumit97/Sumit_DEV/tree/master/0169-majority-element) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/yogisumit97/Sumit_DEV/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0189-rotate-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/0189-rotate-array) |
@@ -171,6 +172,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0069-sqrtx](https://github.com/yogisumit97/Sumit_DEV/tree/master/0069-sqrtx) |
 | [0074-search-a-2d-matrix](https://github.com/yogisumit97/Sumit_DEV/tree/master/0074-search-a-2d-matrix) |
+| [0162-find-peak-element](https://github.com/yogisumit97/Sumit_DEV/tree/master/0162-find-peak-element) |
 | [0222-count-complete-tree-nodes](https://github.com/yogisumit97/Sumit_DEV/tree/master/0222-count-complete-tree-nodes) |
 | [0240-search-a-2d-matrix-ii](https://github.com/yogisumit97/Sumit_DEV/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/0268-missing-number) |
