@@ -1,16 +1,21 @@
 class Solution {
     public List<String> generateParenthesis(int n) {
-        List<String> list = new ArrayList<>();
-        gPHelper(n, n, new String(), list);
-        return list;
+        List<String> result = new ArrayList<>();
+        helper(n,n, new StringBuilder(), result);
+        return result;
     }
-    private void gPHelper(int open, int close, String res, List<String> list){
+    private void helper(int open, int close, StringBuilder sb, List<String> result){
         if(open ==0 && close ==0){
-            list.add(res);
+            result.add(new String(sb));
             return;
         }
-        if(open > close) return;
-        if(open>0) gPHelper(open-1, close, res+"(", list);
-        if(close>0) gPHelper(open, close-1, res+")", list);
+        if(close < open || close<0 || open<0) return;
+
+        sb.append('(');
+        helper(open-1, close, sb, result);
+        sb.deleteCharAt(sb.length()-1);
+        sb.append(')');
+        helper(open, close-1, sb, result);
+        sb.deleteCharAt(sb.length()-1);
     }
 }
