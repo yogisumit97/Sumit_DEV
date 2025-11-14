@@ -1,16 +1,29 @@
 class Solution {
-    public int myAtoi(String input) {
-        String temp = input.strip();
-        if(temp==null || temp.length()<=0) return 0;
-        if(temp.charAt(0)=='+') return findInt(temp, 0, 1,1);
-        else if(temp.charAt(0)=='-') return findInt(temp, 0, 1, -1);
-        else return findInt(temp, 0, 0, 1);
+    public int myAtoi(String s) {
+        String t = s.strip();
+        if(t.length()==0) return 0;
+        int sign = 1;
+        if(t.charAt(0)=='-'){
+            t = t.substring(1, t.length());
+            sign = -1;
+        }
+        else if(t.charAt(0)=='+'){
+            t = t.substring(1, t.length());
+            sign = 1;
+        }
+        long num = 1L*sign*findNum(t, 0, 0);
+        if(num>Integer.MAX_VALUE) return Integer.MAX_VALUE;
+        else if(num<Integer.MIN_VALUE) return Integer.MIN_VALUE;
+        else return (int)num;
     }
-    private int findInt(String input, long result, int start, int sign){
-        if(start== input.length() || !Character.isDigit(input.charAt(start))) return (int)(result*sign);
-        result = result*10+Character.getNumericValue(input.charAt(start));
-        if(result*sign >= Integer.MAX_VALUE) return Integer.MAX_VALUE;
-        else if(result*sign<= Integer.MIN_VALUE) return Integer.MIN_VALUE;
-        else return findInt(input, result, start+1, sign);
+    private long findNum(String t, int i, long num){
+        if(i>=t.length()) return num;
+        char ch = t.charAt(i);
+        if(ch>='0' && ch<='9'){
+            num = num*10l+(int)(ch-'0');
+            if(num>=Integer.MAX_VALUE+1L) return num;
+            return findNum(t, i+1, num);
+        }
+        else return num;
     }
 }
