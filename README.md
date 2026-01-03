@@ -239,6 +239,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1013-fibonacci-number](https://github.com/yogisumit97/Sumit_DEV/tree/master/1013-fibonacci-number) |
 | [1129-longest-string-chain](https://github.com/yogisumit97/Sumit_DEV/tree/master/1129-longest-string-chain) |
 | [1250-longest-common-subsequence](https://github.com/yogisumit97/Sumit_DEV/tree/master/1250-longest-common-subsequence) |
+| [1411-number-of-ways-to-paint-n-3-grid](https://github.com/yogisumit97/Sumit_DEV/tree/master/1411-number-of-ways-to-paint-n-3-grid) |
 ## Greedy
 |  |
 | ------- |
