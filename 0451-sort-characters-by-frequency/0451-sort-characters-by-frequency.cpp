@@ -13,7 +13,7 @@ public:
         });
         string str;
         for(auto it : vec){
-            for(int i =0; i<it.second; i++) str+=it.first;
+            str.append(it.second, it.first);
         }
         return str;
     }
