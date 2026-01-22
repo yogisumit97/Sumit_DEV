@@ -1,12 +1,14 @@
 class Solution {
 public:
-    void reverseString(vector<char>& s) {
-        return reverse(s, 1);
-    }
-    void reverse(vector<char>& s, int num){
-        if(num>s.size()) return;
-        char ch = s[num-1];
-        reverse(s,num+1);
-        s[s.size()-num] = ch;
+    void reverseString(vector<char>& vec) {
+        auto its = vec.begin();
+        auto ite = vec.end()-1;
+        while(its < ite){
+            char temp = *its;
+            *its = *ite;
+            *ite = temp;
+            its++;
+            ite--;
+        }    
     }
 };
