@@ -13,7 +13,6 @@ public:
         });
         string str;
         for(auto it : vec){
-            cout<<it.first<<" "<<it.second<<endl;
             for(int i =0; i<it.second; i++) str+=it.first;
         }
         return str;
