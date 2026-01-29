@@ -122,6 +122,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2215-finding-3-digit-even-numbers](https://github.com/yogisumit97/Sumit_DEV/tree/master/2215-finding-3-digit-even-numbers) |
 | [2227-sum-of-subarray-ranges](https://github.com/yogisumit97/Sumit_DEV/tree/master/2227-sum-of-subarray-ranges) |
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
+| [2512-reward-top-k-students](https://github.com/yogisumit97/Sumit_DEV/tree/master/2512-reward-top-k-students) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3311-ant-on-the-boundary](https://github.com/yogisumit97/Sumit_DEV/tree/master/3311-ant-on-the-boundary) |
 | [3321-type-of-triangle](https://github.com/yogisumit97/Sumit_DEV/tree/master/3321-type-of-triangle) |
@@ -169,6 +170,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1512-design-underground-system](https://github.com/yogisumit97/Sumit_DEV/tree/master/1512-design-underground-system) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/yogisumit97/Sumit_DEV/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2215-finding-3-digit-even-numbers](https://github.com/yogisumit97/Sumit_DEV/tree/master/2215-finding-3-digit-even-numbers) |
+| [2512-reward-top-k-students](https://github.com/yogisumit97/Sumit_DEV/tree/master/2512-reward-top-k-students) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/yogisumit97/Sumit_DEV/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 ## Binary Search
@@ -353,6 +355,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1818-maximum-score-from-removing-substrings](https://github.com/yogisumit97/Sumit_DEV/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/yogisumit97/Sumit_DEV/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2032-largest-odd-number-in-string](https://github.com/yogisumit97/Sumit_DEV/tree/master/2032-largest-odd-number-in-string) |
+| [2512-reward-top-k-students](https://github.com/yogisumit97/Sumit_DEV/tree/master/2512-reward-top-k-students) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/yogisumit97/Sumit_DEV/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3931-process-string-with-special-operations-i](https://github.com/yogisumit97/Sumit_DEV/tree/master/3931-process-string-with-special-operations-i) |
 ## Math
@@ -423,6 +426,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1574-maximum-product-of-two-elements-in-an-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/1574-maximum-product-of-two-elements-in-an-array) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/yogisumit97/Sumit_DEV/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2215-finding-3-digit-even-numbers](https://github.com/yogisumit97/Sumit_DEV/tree/master/2215-finding-3-digit-even-numbers) |
+| [2512-reward-top-k-students](https://github.com/yogisumit97/Sumit_DEV/tree/master/2512-reward-top-k-students) |
 | [3321-type-of-triangle](https://github.com/yogisumit97/Sumit_DEV/tree/master/3321-type-of-triangle) |
 ## Stack
 |  |
@@ -515,6 +519,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0451-sort-characters-by-frequency](https://github.com/yogisumit97/Sumit_DEV/tree/master/0451-sort-characters-by-frequency) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/yogisumit97/Sumit_DEV/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1574-maximum-product-of-two-elements-in-an-array](https://github.com/yogisumit97/Sumit_DEV/tree/master/1574-maximum-product-of-two-elements-in-an-array) |
+| [2512-reward-top-k-students](https://github.com/yogisumit97/Sumit_DEV/tree/master/2512-reward-top-k-students) |
 ## Bucket Sort
 |  |
 | ------- |
