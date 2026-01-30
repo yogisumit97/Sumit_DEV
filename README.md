@@ -73,6 +73,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0274-h-index](https://github.com/yogisumit97/Sumit_DEV/tree/master/0274-h-index) |
 | [0283-move-zeroes](https://github.com/yogisumit97/Sumit_DEV/tree/master/0283-move-zeroes) |
 | [0300-longest-increasing-subsequence](https://github.com/yogisumit97/Sumit_DEV/tree/master/0300-longest-increasing-subsequence) |
+| [0303-range-sum-query-immutable](https://github.com/yogisumit97/Sumit_DEV/tree/master/0303-range-sum-query-immutable) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/yogisumit97/Sumit_DEV/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/yogisumit97/Sumit_DEV/tree/master/0322-coin-change) |
 | [0410-split-array-largest-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0410-split-array-largest-sum) |
@@ -272,6 +273,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/yogisumit97/Sumit_DEV/tree/master/0238-product-of-array-except-self) |
+| [0303-range-sum-query-immutable](https://github.com/yogisumit97/Sumit_DEV/tree/master/0303-range-sum-query-immutable) |
 | [0410-split-array-largest-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/yogisumit97/Sumit_DEV/tree/master/0560-subarray-sum-equals-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/yogisumit97/Sumit_DEV/tree/master/0966-binary-subarrays-with-sum) |
@@ -683,6 +685,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0225-implement-stack-using-queues](https://github.com/yogisumit97/Sumit_DEV/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/yogisumit97/Sumit_DEV/tree/master/0232-implement-queue-using-stacks) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/yogisumit97/Sumit_DEV/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0303-range-sum-query-immutable](https://github.com/yogisumit97/Sumit_DEV/tree/master/0303-range-sum-query-immutable) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/yogisumit97/Sumit_DEV/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0937-online-stock-span](https://github.com/yogisumit97/Sumit_DEV/tree/master/0937-online-stock-span) |
 | [1512-design-underground-system](https://github.com/yogisumit97/Sumit_DEV/tree/master/1512-design-underground-system) |
